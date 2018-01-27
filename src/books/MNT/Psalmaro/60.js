@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. Por ŝuŝan-eduto. Instrua verko de David, kiam li militis kun Sirio Mezopotamia kaj kun Sirio Coba, kaj kiam Joab, revenante,  batis dek du mil Edomidojn en la Valo de Salo. Ho Dio, Vi forlasis nin, Vi disbatis nin;   Vi koleris; rekonsolu nin."},"2":{"verse_nr":2,"verse":"Vi ekskuis la teron kaj fendis ĝin;   Resanigu ĝiajn vundojn, ĉar ĝi ŝanceliĝas."},"3":{"verse_nr":3,"verse":"Vi sentigis al Via popolo pezan sorton;   Vi trinkigis al ni vinon senkonsciigan."},"4":{"verse_nr":4,"verse":"Sed Vi donis standardon al tiuj, kiuj Vin timas,   Por ke ili ĝin levu pro la vero.  Sela."},"5":{"verse_nr":5,"verse":"Por ke liberiĝu Viaj amatoj,   Helpu per Via dekstra mano, kaj aŭskultu min."},"6":{"verse_nr":6,"verse":"Dio diris en Sia sanktejo:Mi triumfos;   Mi dividos Ŝeĥemon, kaj la valon Sukot Mi mezuros."},"7":{"verse_nr":7,"verse":"Al Mi apartenas Gilead, al Mi apartenas Manase;   Efraim estas la forto de Mia kapo,   Jehuda estas Mia sceptro."},"8":{"verse_nr":8,"verse":"Moab estas Mia lavopelvo;   Sur Edomon Mi ĵetos Mian ŝuon;   Super Filiŝtujo Mi triumfe krios."},"9":{"verse_nr":9,"verse":"Kiu enkondukos min en fortikigitan urbon?   Kiu alkondukos min ĝis Edom?"},"10":{"verse_nr":10,"verse":"Ĉu ne Vi, ho Dio, forlasis nin?   Vi ne eliras, ho Dio, kun niaj militistaroj."},"11":{"verse_nr":11,"verse":"Donu al ni helpon kontraŭ la malamiko;   Vanta estas helpo de homo."},"12":{"verse_nr":12,"verse":"Kun Dio ni faros heroaĵojn;   Kaj Li dispremos niajn malamikojn."}};
+
+    export const CxapitroSesDek = {
+        key: 'Psalmaro 60',
+        chapterNum: 60,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

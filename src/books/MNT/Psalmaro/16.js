@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Verko de David. Gardu min, ho Dio, ĉar mi rifuĝas ĉe Vi."},"2":{"verse_nr":2,"verse":"Mi diris al la Eternulo:Vi estas mia Sinjoro;   Mi ne havas alian bonon krom Vi."},"3":{"verse_nr":3,"verse":"Al la sanktuloj, kiuj estas sur la tero,   Kaj al la majestuloj iras mia tuta deziro."},"4":{"verse_nr":4,"verse":"Multiĝos la malĝojoj de tiuj, kiuj sekvis alian;   Mi ne verŝos iliajn sangajn verŝoferojn  Kaj ne metos iliajn nomojn en mian buŝon."},"5":{"verse_nr":5,"verse":"La Eternulo estas mia sorta parto kaj kaliko;   Vi subtenas mian sorton."},"6":{"verse_nr":6,"verse":"Loto agrabla trafis min,   Ĉarma estas mia heredo."},"7":{"verse_nr":7,"verse":"Mi gloras la Eternulon, kiu konsilas min;   Eĉ en la nokto instruas min mia internaĵo."},"8":{"verse_nr":8,"verse":"Ĉiam mi vidas la Eternulon antaŭ mi;   Ĉar Li estas ĉe mia dekstra mano, mi ne falos."},"9":{"verse_nr":9,"verse":"Tial ĝojas mia koro, raviĝas mia animo;   Eĉ mia karno ripozas senzorge."},"10":{"verse_nr":10,"verse":"Ĉar Vi ne lasos mian animon al Ŝeol;   Vi ne permesos, ke Via sanktulo forputru."},"11":{"verse_nr":11,"verse":"Vi konigos al mi la vojon de la vivo;   Multe da ĝojoj estas antaŭ Vi,   Ĉarmoj estas en Via dekstra mano eterne."}};
+
+    export const CxapitroDekSes = {
+        key: 'Psalmaro 16',
+        chapterNum: 16,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

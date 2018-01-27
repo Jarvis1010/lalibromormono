@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Kanto-psalmo de la Koraĥidoj. Granda estas la Eternulo,   Kaj tre glora en la urbo de nia Dio,   Sur Lia sankta monto."},"2":{"verse_nr":2,"verse":"Bela altaĵo, ĝojiga por la tuta tero  Estas la monto Cion, en la norda regiono,   La urbo de la granda Reĝo."},"3":{"verse_nr":3,"verse":"Dio estas konata en ĝiaj palacoj, kiel rifuĝejo."},"4":{"verse_nr":4,"verse":"Jen kolektiĝis la reĝoj,   Sed ĉiuj kune foriris."},"5":{"verse_nr":5,"verse":"Ili vidis kaj ekmiris,   Konfuziĝis kaj forkuris."},"6":{"verse_nr":6,"verse":"Teruro ilin atakis,   Tremo, kiel ĉe akuŝantino."},"7":{"verse_nr":7,"verse":"Per orienta vento  Vi ruinigis la ŝipojn de Tarŝiŝ."},"8":{"verse_nr":8,"verse":"Kion ni aŭdis, tion ni vidis  En la urbo de la Eternulo Cebaot, en la urbo de nia Dio;   Dio fortikigu ĝin por ĉiam!  Sela."},"9":{"verse_nr":9,"verse":"Ni meditis, ho Dio, pri Via boneco,   Interne de Via templo."},"10":{"verse_nr":10,"verse":"Kiel Via nomo, ho Dio,   Tiel Via gloro estas en la finoj de la tero;   Plena de justeco estas Via dekstra mano."},"11":{"verse_nr":11,"verse":"Ĝoju la monto Cion,   Ĝoju la filinoj de Jehuda,   Pro Via juĝoj."},"12":{"verse_nr":12,"verse":"Iru ĉirkaŭ Cion kaj ĉirkaŭrigardu ĝin,   Kalkulu ĝiajn turojn."},"13":{"verse_nr":13,"verse":"Atentu ĝiajn fortikaĵojn,   Vizitu ĝiajn palacojn,   Por ke vi rakontu al estonta generacio."},"14":{"verse_nr":14,"verse":"Ĉar jen estas Dio, nia Dio, por ĉiam kaj eterne;   Li estos nia kondukanto ĝis la morto."}};
+
+    export const CxapitroKvarDekOk = {
+        key: 'Psalmaro 48',
+        chapterNum: 48,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

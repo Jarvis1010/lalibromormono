@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Kial tumultas popoloj,   Kaj gentoj pripensas vanaĵon?"},"2":{"verse_nr":2,"verse":"Leviĝas reĝoj de la tero,   Kaj eminentuloj konsiliĝas kune,   Kontraŭ la Eternulo kaj kontraŭ Lia sanktoleito, dirante:"},"3":{"verse_nr":3,"verse":"Ni disŝiru iliajn ligilojn,   Kaj ni deĵetu de ni iliajn ŝnurojn!"},"4":{"verse_nr":4,"verse":"La loĝanta en la ĉielo ridas,  La Sinjoro mokas ilin."},"5":{"verse_nr":5,"verse":"Tiam Li parolos al ili en Sia kolero,  Kaj per Sia furiozo Li ilin ektimigos, dirante:"},"6":{"verse_nr":6,"verse":"Mi starigis ja Mian reĝon Super Cion, Mia sankta monto."},"7":{"verse_nr":7,"verse":"Mi raportos pri la decido:  La Eternulo diris al mi:Vi estas Mia filo,  Hodiaŭ Mi vin naskis."},"8":{"verse_nr":8,"verse":"Petu Min, kaj Mi donos al vi popolojn por heredo,  Kaj por posedo limojn de tero."},"9":{"verse_nr":9,"verse":"Vi disbatos ilin per fera sceptro,  Kiel potan vazon vi ilin dispecigos."},"10":{"verse_nr":10,"verse":"Kaj nun, ho reĝoj, prudentiĝu;  Instruiĝu, juĝistoj de la tero!"},"11":{"verse_nr":11,"verse":"Servu al la Eternulo kun timo,  Kaj ĝoju kun tremo."},"12":{"verse_nr":12,"verse":"Kisu la filon, ke Li ne koleru, kaj vi ne pereu sur la vojo,  Ĉar baldaŭ ekbrulos Lia kolero.  Feliĉaj estas ĉiuj, kiuj fidas Lin."}};
+
+    export const CxapitroDu = {
+        key: 'Psalmaro 2',
+        chapterNum: 2,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Psalmo de David. Tributu al la Eternulo, vi potenculoj,   Tributu al la Eternulo honoron kaj forton."},"2":{"verse_nr":2,"verse":"Tributu al la Eternulo la honoron de Lia nomo;   Kliniĝu antaŭ la Eternulo en sankta ornamo."},"3":{"verse_nr":3,"verse":"La voĉo de la Eternulo iras super la akvoj;   La Dio de gloro tondras,   La Eternulo super grandaj akvoj."},"4":{"verse_nr":4,"verse":"La voĉo de la Eternulo iras kun forto,   La voĉo de la Eternulo iras kun majesto."},"5":{"verse_nr":5,"verse":"La voĉo de la Eternulo rompas cedrojn,   La Eternulo rompas la cedrojn de Lebanon."},"6":{"verse_nr":6,"verse":"Li saltigas ilin kiel bovidon,   Lebanonon kaj Sirjonon kiel bubalidon."},"7":{"verse_nr":7,"verse":"La voĉo de la Eternulo elhakas fajran flamon."},"8":{"verse_nr":8,"verse":"La voĉo de la Eternulo skuas dezerton,   La Eternulo skuas la dezerton Kadeŝ."},"9":{"verse_nr":9,"verse":"La voĉo de la Eternulo igas cervinojn naski, kaj nudigas arbarojn;   Kaj en Lia templo ĉio parolas pri Lia gloro."},"10":{"verse_nr":10,"verse":"La Eternulo regis en la tempo de la diluvo,   La Eternulo restos Reĝo eterne."},"11":{"verse_nr":11,"verse":"La Eternulo donos forton al Sia popolo,   La Eternulo benos Sian popolon per paco."}};
+
+    export const CxapitroDuDekNau = {
+        key: 'Psalmaro 29',
+        chapterNum: 29,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. Por Al-taŝĥet. Verko de David, kiam li forkuris de Saul en la kavernon. Korfavoru min, ho Dio, korfavoru min;   Ĉar ĉe Vi rifuĝas mia animo,   Kaj sub la ombro de Viaj flugiloj mi min kaŝas,   Ĝis pasos la mizeroj."},"2":{"verse_nr":2,"verse":"Mi vokas al Dio Plejalta,   Al Dio, kiu decidas pri mi."},"3":{"verse_nr":3,"verse":"Li sendu el la ĉielo kaj helpu min,   Li, kiu hontigas miajn persekutanton;  Sela.   Dio sendu Sian favoron kaj Sian veron."},"4":{"verse_nr":4,"verse":"Mia animo estas inter leonoj;   Mi kuŝas inter homidoj avidaj, kies dentoj estas ponardegoj kaj sagoj,   Kaj kies lango estas akra glavo."},"5":{"verse_nr":5,"verse":"Altiĝu super la ĉielo, ho Dio;   Via gloro estu super la tuta tero."},"6":{"verse_nr":6,"verse":"Reton ili metis antaŭ miaj piedoj;   Ili premis mian animon;   Ili fosis antaŭ mi foson,   Sed ili mem falis en ĝin.  Sela."},"7":{"verse_nr":7,"verse":"Fortika estas mia koro, ho Dio, fortika estas mia koro;   Mi kantos kaj gloros."},"8":{"verse_nr":8,"verse":"Vekiĝu, mia honoro, vekiĝu, psaltero kaj harpo;   Mi vekos la matenan ĉielruĝon."},"9":{"verse_nr":9,"verse":"Mi gloros Vin, ho mia Sinjoro, inter la popoloj;   Mi prikantos Vin inter la gentoj."},"10":{"verse_nr":10,"verse":"Ĉar granda ĝis la ĉielo estas Via boneco,   Kaj ĝis la nuboj estas Via vero."},"11":{"verse_nr":11,"verse":"Altiĝu super la ĉielo, ho Dio;   Via gloro estu super la tuta tero."}};
+
+    export const CxapitroKvinDekSep = {
+        key: 'Psalmaro 57',
+        chapterNum: 57,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"La aĝon de dudek kvin jaroj havis Jotam, kiam li fariĝis reĝo, kaj dek ses jarojn li reĝis en Jerusalem. La nomo de lia patrino estis Jeruŝa,  filino de Cadok."},"2":{"verse_nr":2,"verse":"Li agadis bone antaŭ la Eternulo, tiel same, kiel agadis lia patro Uzija; sed li ne eniris en la templon de la Eternulo; kaj la popolo ĉiam ankoraŭ pekadis."},"3":{"verse_nr":3,"verse":"Li konstruis la supran pordegon de la domo de la Eternulo, kaj ĉe la muro de Ofel li multe konstruis."},"4":{"verse_nr":4,"verse":"Li konstruis ankaŭ urbojn sur la monto de Jehuda, kaj en la arbaroj li konstruis kastelojn kaj turojn."},"5":{"verse_nr":5,"verse":"Li militis kontraŭ la reĝo de la Amonidoj kaj venkis ilin; kaj la Amonidoj donis al li en tiu jaro cent kikarojn da arĝento, dek mil kor�ojn da tritiko, kaj dek mil da hordeo. Tion saman donis al li la Amonidoj ankaŭ en la dua jaro kaj en la tria."},"6":{"verse_nr":6,"verse":"Jotam fariĝis potenca, ĉar li bone aranĝis siajn vojojn antaŭ la Eternulo, sia Dio."},"7":{"verse_nr":7,"verse":"La cetera historio de Jotam, ĉiuj liaj militoj kaj liaj vojoj, estas priskribitaj en la libro de la reĝoj de Izrael kaj Judujo."},"8":{"verse_nr":8,"verse":"La aĝon de dudek kvin jaroj li havis, kiam li fariĝis reĝo, kaj dek ses jarojn li reĝis en Jerusalem."},"9":{"verse_nr":9,"verse":"Kaj Jotam ekdormis kun siaj patroj, kaj oni enterigis lin en la urbo de David. Kaj anstataŭ li ekreĝis lia filo Aĥaz."}};
+
+    export const CxapitroDuDekSep = {
+        key: '2 Kroniko 27',
+        chapterNum: 27,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

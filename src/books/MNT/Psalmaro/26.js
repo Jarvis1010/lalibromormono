@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"De David. Juĝu min, ho Eternulo, ĉar mi iris en sincereco kaj la Eternulon mi fidis;   Mi ne ŝanceliĝos."},"2":{"verse_nr":2,"verse":"Esploru min, ho Eternulo, kaj elprovu min;   Refandu mian internaĵon kaj mian koron."},"3":{"verse_nr":3,"verse":"Ĉar Via favorkoreco estas antaŭ miaj okuloj;   Kaj mi marŝas en Via vero."},"4":{"verse_nr":4,"verse":"Mi ne sidas kun homoj malveremaj,   Kaj kun falsemuloj mi ne iros."},"5":{"verse_nr":5,"verse":"Mi malamas societon de malbonfarantoj,   Kaj kun malpiuloj mi ne sidos."},"6":{"verse_nr":6,"verse":"Mi lavas miajn manojn per senkulpeco;   Kaj mi moviĝas ĉirkaŭ Via altaro, ho Eternulo,"},"7":{"verse_nr":7,"verse":"Por aŭdigi laŭte gloradon  Kaj famigi ĉiujn Viajn miraklojn."},"8":{"verse_nr":8,"verse":"Ho Eternulo, mi amas la ejon de Via domo,   Kaj la lokon, en kiu loĝas Via gloro."},"9":{"verse_nr":9,"verse":"Ne pereigu mian animon kune kun la pekuloj,   Nek mian vivon kun la sangaviduloj,"},"10":{"verse_nr":10,"verse":"En kies manoj estas krimo  Kaj kies dekstra mano estas plena de subaĉetaj donacoj."},"11":{"verse_nr":11,"verse":"Kaj mi iras en senkulpeco;   Liberigu min kaj korfavoru min."},"12":{"verse_nr":12,"verse":"Mia piedo staras sur ebena loko;   En kunvenoj mi benos la Eternulon."}};
+
+    export const CxapitroDuDekSes = {
+        key: 'Psalmaro 26',
+        chapterNum: 26,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

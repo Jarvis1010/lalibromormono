@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Venu, ni kantu al la Eternulo;   Ni ĝoje kriu al la rifuĝejo de nia helpo."},"2":{"verse_nr":2,"verse":"Ni venu antaŭ Lian vizaĝon kun glorado,   Per psalmoj ni ĝoje kriu al Li."},"3":{"verse_nr":3,"verse":"Ĉar granda Dio estas la Eternulo  Kaj granda Reĝo super ĉiuj dioj,"},"4":{"verse_nr":4,"verse":"Kiu havas en Sia mano la profundaĵojn de la tero,   Kaj al kiu apartenas la altaĵoj de la montoj;"},"5":{"verse_nr":5,"verse":"Al kiu apartenas la maro, kaj Li ĝin faris,   Kaj la sekteron Liaj manoj kreis."},"6":{"verse_nr":6,"verse":"Venu, ni kliniĝu, ni ĵetu nin teren,   Ni genuu antaŭ la Eternulo, nia Kreinto."},"7":{"verse_nr":7,"verse":"Ĉar Li estas nia Dio,   Kaj ni estas la popolo de Lia paŝtejo kaj la ŝafoj de Lia mano.   Hodiaŭ, se vi aŭskultas Lian voĉon,"},"8":{"verse_nr":8,"verse":"Ne obstinigu vian koron, kiel en Meriba,   Kiel en la tago de Masa en la dezerto,"},"9":{"verse_nr":9,"verse":"Kiam viaj patroj Min incitis,   Esploris kaj vidis Mian faron."},"10":{"verse_nr":10,"verse":"Kvardek jarojn Mi indignis kontraŭ tiu generacio,   Kaj Mi diris:Ili estas popolo kun koro malĝusta,   Kaj ili ne volas koni Miajn vojojn;"},"11":{"verse_nr":11,"verse":"Tial Mi ĵuris en Mia kolero,   Ke ili ne venos en Mian ripozejon."}};
+
+    export const CxapitroNauDekKvin = {
+        key: 'Psalmaro 95',
+        chapterNum: 95,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

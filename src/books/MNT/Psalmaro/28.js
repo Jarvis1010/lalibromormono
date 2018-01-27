@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"De David. Al Vi, ho Eternulo, mi vokas;   Mia Roko, ne silentu al mi;   Se Vi silentos al mi, mi similiĝos al tiuj,   Kiuj iras en la tombon."},"2":{"verse_nr":2,"verse":"Aŭskultu la voĉon de mia petego, kiam mi krias al Vi,   Kiam mi levas miajn manojn al Via plejsanktejo."},"3":{"verse_nr":3,"verse":"Ne kunpereigu min kune kun malpiuloj, kaj kun krimfarantoj,   Kiuj parolas pace kun siaj proksimuloj,   Dum malbono estas en ilia koro."},"4":{"verse_nr":4,"verse":"Redonu al ili laŭ iliaj faroj kaj laŭ iliaj malbonaj agoj;   Laŭ la faroj de iliaj manoj redonu al ili;   Redonu al ili, kion ili meritas."},"5":{"verse_nr":5,"verse":"Ĉar ili ne atentas la agojn de la Eternulo  Kaj la farojn de Liaj manoj,   Li disbatos ilin kaj ne rekonstruos."},"6":{"verse_nr":6,"verse":"Glorata estu la Eternulo,   Ĉar Li aŭskultis la voĉon de mia petego."},"7":{"verse_nr":7,"verse":"La Eternulo estas mia forto kaj mia ŝildo;   Lin fidis mia koro, kaj Li helpis min;   Tial ekĝojas mia koro,   Kaj per mia kanto mi Lin gloros."},"8":{"verse_nr":8,"verse":"La Eternulo estas ilia forto,   Li estas savanta forto por Sia sanktoleito."},"9":{"verse_nr":9,"verse":"Helpu Vian popolon kaj benu Vian heredon,   Kaj paŝtu kaj altigu ilin eterne."}};
+
+    export const CxapitroDuDekOk = {
+        key: 'Psalmaro 28',
+        chapterNum: 28,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

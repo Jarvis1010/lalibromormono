@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Kaj la loto por la Jozefidoj donis:de Jordan kontraŭ Jeriĥo, ĉe la akvo de Jeriĥo, orienten, la dezerton, kiu etendiĝas de Jeriĥo ĝis la monto Bet-El."},"2":{"verse_nr":2,"verse":"Kaj la limo iras de Bet-El ĝis Luz, kaj transiras ĝis la limo de la Arkanoj al Atarot;"},"3":{"verse_nr":3,"verse":"kaj ĝi malleviĝas okcidenten al la limo de la Jafletidoj, ĝis la limo de la malsupra Bet-Ĥoron kaj ĝis Gezer; kaj ĝi finiĝas ĉe la maro."},"4":{"verse_nr":4,"verse":"Tion ricevis kiel posedaĵon Manase kaj Efraim, filoj de Jozef."},"5":{"verse_nr":5,"verse":"Kaj la regiono de la Efraimidoj estis laŭ iliaj familioj:la limo de ilia posedaĵo oriente estis de Atrot-Adar ĝis la supra Bet-Ĥoron."},"6":{"verse_nr":6,"verse":"Kaj la limo iras al la maro ĉe Miĥmetat norde; kaj la limo turniĝas orienten ĉe Taanat-Ŝilo, kaj trapasas ĝin orienten al Janoaĥ."},"7":{"verse_nr":7,"verse":"Kaj ĝi malleviĝas de Janoaĥ al Atarot kaj Naara, kaj tuŝas Jeriĥon,  kaj finiĝas ĉe Jordan."},"8":{"verse_nr":8,"verse":"De Tapuaĥ la limo iras okcidenten al la torento Kana, kaj finiĝas ĉe la maro. Tio estas la posedaĵo de la tribo de la Efraimidoj laŭ iliaj familioj;"},"9":{"verse_nr":9,"verse":"kaj la urboj, kiuj estas apartigitaj por la Efraimidoj meze de la posedaĵo de la Manaseidoj, ĉiuj urboj kun iliaj vilaĝoj."},"10":{"verse_nr":10,"verse":"Kaj ili ne forpelis la Kanaanidojn, kiuj loĝis en Gezer; kaj la Kanaanidoj restis meze de la Efraimidoj ĝis la nuna tago, servante kiel tributuloj."}};
+
+    export const CxapitroDekSes = {
+        key: 'Josuo 16',
+        chapterNum: 16,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

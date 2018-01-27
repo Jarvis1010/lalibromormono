@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. Por Jonatelem-reĥokim. Verko de David, kiam kaptis lin la Filiŝtoj en Gat. Korfavoru min, ho Dio, ĉar homo volas min engluti,   Dum la tuta tago malamiko min premas."},"2":{"verse_nr":2,"verse":"Miaj malamikoj volas min engluti ĉiutage,   Ĉar multaj militas kontraŭ mi fiere."},"3":{"verse_nr":3,"verse":"En la tago, kiam mi timas,   Mi fidas Vin."},"4":{"verse_nr":4,"verse":"Dion, kies vorton mi gloras,   Tiun Dion mi fidas; mi ne timas:   Kion karno faros al mi?"},"5":{"verse_nr":5,"verse":"Dum la tuta tago ili atakas miajn vortojn;   Ĉiuj iliaj pensoj pri mi estas por malbono."},"6":{"verse_nr":6,"verse":"Ili kolektiĝas, embuskas, observas miajn paŝojn,   Penante kapti mian animon."},"7":{"verse_nr":7,"verse":"Por ilia malbonago repagu al ili,   En kolero faligu la popolojn, ho Dio!"},"8":{"verse_nr":8,"verse":"Mian vagadon Vi kalkulis;   Metu miajn larmojn en Vian felsakon,   Ili estas ja en Via libro."},"9":{"verse_nr":9,"verse":"Tiam miaj malamikoj returniĝos malantaŭen en la tago, kiam mi vokos;   Tion mi scias, ke Dio estas kun mi."},"10":{"verse_nr":10,"verse":"Mi gloros vorton de Dio;   Mi gloros vorton de la Eternulo."},"11":{"verse_nr":11,"verse":"Dion mi fidas, mi ne timas:   Kion faros al mi homo?"},"12":{"verse_nr":12,"verse":"Mi faris al Vi, ho Dio, promesojn,   Mi plenumos al Vi dankoferojn."},"13":{"verse_nr":13,"verse":"Ĉar Vi savis mian animon de la morto,   Kaj miajn piedojn de falpuŝiĝo,   Por ke mi iradu antaŭ Dio  En la lumo de la vivo."}};
+
+    export const CxapitroKvinDekSes = {
+        key: 'Psalmaro 56',
+        chapterNum: 56,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

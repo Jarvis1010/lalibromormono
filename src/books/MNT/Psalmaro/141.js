@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Psalmo de David. Ho Eternulo, mi vokas al Vi; rapidu al mi;   Atentu mian voĉon, kiam mi vokas al Vi."},"2":{"verse_nr":2,"verse":"Mia preĝo valoru antaŭ Vi kiel incenso,   La levo de miaj manoj kiel vespera oferdono."},"3":{"verse_nr":3,"verse":"Metu, ho Eternulo, gardon al mia buŝo,   Gardu la pordon de miaj lipoj."},"4":{"verse_nr":4,"verse":"Ne klinu mian koron al io malbona,   Al partoprenado en malbonagoj kun malbonaguloj;   Mi ne manĝu iliajn bongustaĵojn."},"5":{"verse_nr":5,"verse":"Virtuloj min frapu favorkore kaj punu min:   Ĝi estos oleo por la kapo;   Mia kapo ne rifuzos, se estos eĉ pli;   Kaj mi preĝas ĉe iliaj malfeliĉoj."},"6":{"verse_nr":6,"verse":"Disiĝis sur roko iliaj juĝantoj,   Kaj ili aŭdis miajn vortojn, kiel amikaj ili estis."},"7":{"verse_nr":7,"verse":"Kiel iu plugas kaj dispecigas la teron,   Tiel estas disĵetitaj iliaj ostoj ĝis la buŝo de Ŝeol."},"8":{"verse_nr":8,"verse":"Ĉar al Vi, ho Eternulo, mia Sinjoro, estas direktitaj miaj okuloj;   Al Vi mi esperas:ne forpuŝu mian animon."},"9":{"verse_nr":9,"verse":"Gardu min kontraŭ la reto, kiun oni metis al mi,   Kontraŭ la implikilo de la malbonaguloj."},"10":{"verse_nr":10,"verse":"La malvirtuloj falu en siajn retojn ĉiuj,   Dum mi preteriros."}};
+
+    export const CxapitroCentKvarDekUnu = {
+        key: 'Psalmaro 141',
+        chapterNum: 141,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

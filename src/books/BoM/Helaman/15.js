@@ -1,0 +1,23 @@
+export const CxapitroDekKvin = {
+  key: 'Helaman 15',
+  chapterNum: 15,
+  verses: [
+    'KAJ nun, miaj amataj fratoj, jen, mi deklaras al vi, ke, se vi ne pentos, viaj domoj estos lasitaj al vi dezertaj.',
+    '2. Jes, se vi ne pentos, viaj virinoj havos egan kialon por funebri en la tago, kiam ili suĉigos; ĉar vi provos fuĝi kaj ne estos rifuĝejo; jes, kaj ve al tiuj, kiuj estas gravedaj, ĉar ili estos pezaj kaj ne povos fuĝi; pro tio ili estos piedpremitaj kaj lasitaj perei.',
+    '3. Jes, ve al ĉi tiu popolo, kiu estas nomita la popolo de Nifai, se ĝi ne pentos, kiam ĝi vidos ĉiujn ĉi signojn kaj miraĵojn, kiuj montriĝos al ĝi; ĉar jen, ĝi estis popolo elektita de la Sinjoro; jes, li amis la popolon de Nifai, kaj li ankaŭ punis ĝin; jes, en la tagoj de ĝiaj malvirtaĵoj li punadis ĝin, ĉar li amis ĝin.',
+    '4. Sed jen, miaj fratoj, la lamanidojn li malamis, ĉar iliaj agoj estis daŭre malvirtaj, pro la malvirteco de la tradicio de iliaj prapatroj. Sed jen, savo venis al ili per la predikado de la nifaidoj; kaj pro tio la Sinjoro plilongigis iliajn tagojn.',
+    '5. Kaj mi volus, ke vi vidu, ke la granda plimulto el ili estas sur la vojo de sia devo, kaj ili atente iradas antaŭ Dio, kaj ili observas obei liajn ordonojn kaj liajn statutojn kaj liajn juĝojn laŭ la leĝo de Moseo.',
+    '6. Jes, mi diras al vi, ke la granda plimulto el ili tion faras, kaj ili penegas per senlaca diligenteco por venigi siajn ceterajn fratojn al sciado pri la vero; tial troviĝas multaj, kiuj ĉiutage aldoniĝas al ilia nombro.',
+    '7. Kaj jen, vi mem scias, ĉar vi vidis tion, ke ĉiuj el ili, kiujn oni venigis al sciado pri la vero kaj al sciado pri la malvirtaj kaj abomenindaj tradicioj de siaj prapatroj kaj kiujn oni kondukis al kredo je la Sanktaj Skriboj, jes, la profetaĵoj de la sanktaj profetoj, kiuj estas skribitaj, kio kondukas ilin al fido al la Sinjoro kaj al pento, fido kaj pento, kiuj okazigas korŝanĝon en ili -',
+    '8. Pro tio, ĉiuj, kiuj venis ĉi tien, vi mem scias, estas firmaj kaj konstantaj en kredo, kaj en tio, kio liberigis ilin.',
+    '9. Kaj vi scias ankaŭ, ke ili enterigis siajn ilojn de militado, kaj ili ne kuraĝas repreni ilin, timante, ke iel ili pekos; jes, vi povas vidi, ke ili timas peki ĉar jen ili permesos, ke iliaj malamikoj piedpremu kaj mortigu ilin, kaj ili ne levos siajn glavojn kontraŭ ilin, kaj tio pro sia fido je Kristo.',
+    '10. Kaj nun, pro ilia konstanteco en sia kredo al tio, kion ili ja kredas, kaj pro ilia firmeco dum sia allumiteco, la Sinjoro benos ilin kaj plilongigos iliajn tagojn malgraŭ ilia malvirteco.',
+    '11. Jes, eĉ se ili ŝrumpos en nekredemo, la Sinjoro plilongigos iliajn tagojn ĝis la tempo, pri kiu parolis niaj prapatroj kaj ankaŭ la profeto Zenos kaj multaj aliaj profetoj koncerne la revenigon de niaj fratoj la lamanidoj al sciado pri la vero.',
+    '12. Jes, mi diras al vi, ke en la lastaj tempoj la promesoj de la Sinjoro estas etenditaj al niaj fratoj la lamanidoj; kaj malgraŭ la multaj afliktiĝoj, kiujn ili havos, kaj malgraŭ tio, ke ili estos pelataj tien kaj reen sur la supraĵo de la tuta tero, kaj estos ĉasataj, kaj estos frapataj kaj disigataj, havante neniun rifuĝejon, la Sinjoro estos kompatema al ili.',
+    '13. Kaj tio estas laŭ la profetaĵo, ke ili estos venigataj al la vera scio, kiu estas la scio de ilia Elaĉetinto, kaj ilia granda kaj vera ŝafisto, kaj ili estos alkalkulitaj inter lia ŝafaro.',
+    '14. Tial mi diras al vi, ke estos pli bone por ili ol por vi, se vi ne pentos.',
+    '15. Ĉar jen, se la potencaĵoj, kiuj estas montritaj al vi, estus montritaj al ili, jes, al tiuj, kiuj ŝrumpis de nekredemo pro la tradicioj de siaj prapatroj, vi mem povas vidi, ke ili neniam reŝrumpus de nekredemo.',
+    '16. Tial, diras la Sinjoro, mi ne ekstermos ilin, sed mi revenigos ilin al mi en la tago decidita de mia saĝeco, diras la Sinjoro.',
+    '17. Kaj nun aŭdu, diras la Sinjoro pri la popolo de la nifaidoj; Se ili ne pentos kaj observos fari mian volon, mi ekstermos ilin, diras la Sinjoro, pro ilia nekredemo malgraŭ la multaj potencaĵoj, kiujn mi faris inter ili; kaj tiel certe kiel la Sinjoro vivas, ĉi tio okazos, diras la Sinjoro.',
+  ],
+};

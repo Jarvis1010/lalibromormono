@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Psalmo-kanto ĉe inaŭguro de la Domo; de David. Mi gloros Vin alte,  ho Eternulo,   Ĉar Vi levis min kaj Vi ne lasis miajn malamikojn triumfi super mi."},"2":{"verse_nr":2,"verse":"Ho Eternulo, mia Dio, mi vokis al Vi,   Kaj Vi min sanigis."},"3":{"verse_nr":3,"verse":"Ho Eternulo, Vi ellevis el Ŝeol mian animon;   Vi vivigis min, ke mi ne iru en la tombon."},"4":{"verse_nr":4,"verse":"Kantu al la Eternulo, ho Liaj piuloj,   Kaj gloru Lian sanktan nomon."},"5":{"verse_nr":5,"verse":"Ĉar nur momenton daŭras Lia kolero,   Sed tutan vivon daŭras Lia favoro;   Vespere povas esti ploro,   Sed matene venos ĝojego."},"6":{"verse_nr":6,"verse":"Kaj mi diris en la tempo de mia feliĉo:   Mi neniam falos."},"7":{"verse_nr":7,"verse":"Ho Eternulo, per Via favoro Vi starigis mian monton fortike;   Sed kiam Vi kaŝis Vian vizaĝon, mi konfuziĝis."},"8":{"verse_nr":8,"verse":"Al Vi, ho Eternulo, mi vokis,   Kaj al la Eternulo mi preĝis:"},"9":{"verse_nr":9,"verse":"Kion utilos mia sango, se mi iros en la tombon?   Ĉu gloros Vin polvo? ĉu ĝi aŭdigos Vian veron?"},"10":{"verse_nr":10,"verse":"Aŭskultu, ho Eternulo, kaj korfavoru min;   Ho Eternulo, estu helpanto al mi."},"11":{"verse_nr":11,"verse":"Vi anstataŭigis al mi mian plendon per danco;   Vi deprenis de mi mian sakaĵon kaj zonis min per ĝojo,"},"12":{"verse_nr":12,"verse":"Por ke mia animo kantu al Vi kaj ne silentiĝu.   Ho Eternulo, mia Dio, eterne mi Vin gloros."}};
+
+    export const CxapitroTriDek = {
+        key: 'Psalmaro 30',
+        chapterNum: 30,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

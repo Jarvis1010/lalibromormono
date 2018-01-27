@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. Por Al-taŝĥet. Verko de David. Ĉu efektive vi parolas veron, vi potenculoj?   Ĉu vi juste juĝas, homidoj?"},"2":{"verse_nr":2,"verse":"Kontraŭe, en la koro vi faras krimaĵojn,   Sur la tero vi pesas per manoj rabemaj."},"3":{"verse_nr":3,"verse":"De la momento de sia naskiĝo la malvirtuloj devojiĝis;   De el la ventro de sia patrino la mensogantoj ekeraris."},"4":{"verse_nr":4,"verse":"Ilia veneno estas simila al la veneno de serpento,   De surda aspido, kiu ŝtopas sian orelon,"},"5":{"verse_nr":5,"verse":"Kiu ne aŭskultas la vortojn de sorĉistoj,   Kiel ajn lertaj en sia arto."},"6":{"verse_nr":6,"verse":"Ho Dio, frakasu iliajn dentojn en ilia buŝo;   Frakasu la makzelojn de la junaj leonoj, ho Eternulo!"},"7":{"verse_nr":7,"verse":"Ili forverŝiĝu kiel akvo, kiu malaperas;   Kiam Li ĵetos Siajn sagojn, ili estu kiel buĉitaj."},"8":{"verse_nr":8,"verse":"Kiel limako konsumiĝanta ili malaperu,   Kiel abortaĵo virina, kiu ne vidis la sunon;"},"9":{"verse_nr":9,"verse":"Antaŭ ol viaj kaldronoj eksentos la dornojn,   Ilin vivajn kaj freŝajn pereigu la ventego."},"10":{"verse_nr":10,"verse":"Ĝojos la virtulo, kiam li vidos venĝon;   Li lavos siajn piedojn en la sango de la malvirtulo."},"11":{"verse_nr":11,"verse":"Kaj la homoj diros:Ekzistas rekompenco por la virtulo,   Ekzistas Dio, juĝanto sur la tero."}};
+
+    export const CxapitroKvinDekOk = {
+        key: 'Psalmaro 58',
+        chapterNum: 58,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

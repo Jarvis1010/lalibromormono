@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Haleluja!   Gloru la Eternulon el la ĉielo,   Gloru Lin en la alto."},"2":{"verse_nr":2,"verse":"Gloru Lin, ĉiuj Liaj anĝeloj;   Gloru Lin, ĉiuj Liaj militistaroj."},"3":{"verse_nr":3,"verse":"Gloru Lin, suno kaj luno;   Gloru Lin, ĉiuj lumaj steloj."},"4":{"verse_nr":4,"verse":"Gloru Lin, plej supraj ĉieloj,   Kaj la akvo, kiu estas super la ĉielo."},"5":{"verse_nr":5,"verse":"Ili gloru la nomon de la Eternulo;   Ĉar Li ordonis, kaj ili kreiĝis."},"6":{"verse_nr":6,"verse":"Kaj Li starigis ilin por ĉiam, por eterne;   Li donis leĝon, kiun ili ne malobeos."},"7":{"verse_nr":7,"verse":"Gloru la Eternulon el la tero,   Marmonstroj kaj ĉiuj abismoj;"},"8":{"verse_nr":8,"verse":"Fulmo kaj hajlo, neĝo kaj nebulo,   Ventego, kiu plenumas Lian vorton;"},"9":{"verse_nr":9,"verse":"Montoj kaj ĉiuj montetoj,   Fruktoportaj arboj kaj ĉiuj cedroj;"},"10":{"verse_nr":10,"verse":"Bestoj kaj ĉiaj brutoj,   Rampaĵoj kaj flugilaj birdoj;"},"11":{"verse_nr":11,"verse":"Reĝoj de la tero kaj ĉiuj popoloj,   Princoj kaj ĉiuj juĝantoj sur la tero;"},"12":{"verse_nr":12,"verse":"Junuloj kaj junulinoj,   Maljunuloj kaj knaboj."},"13":{"verse_nr":13,"verse":"Ili gloru la nomon de la Eternulo,   Ĉar sole Lia nomo estas alta,   Lia majesto estas sur la tero kaj en la ĉielo."},"14":{"verse_nr":14,"verse":"Kaj Li altigis la kornon de Sia popolo,   La gloron de ĉiuj Liaj fideluloj,   De la filoj de Izrael, Lia plej proksima popolo.   Haleluja!"}};
+
+    export const CxapitroCentKvarDekOk = {
+        key: 'Psalmaro 148',
+        chapterNum: 148,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

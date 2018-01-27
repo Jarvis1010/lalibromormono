@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Kanto. Psalmo de David. Fortika estas mia koro, ho Dio;   Mi kantos kaj gloros kun mia honoro."},"2":{"verse_nr":2,"verse":"Vekiĝu, psaltero kaj harpo;   Mi vekos la matenan ĉielruĝon."},"3":{"verse_nr":3,"verse":"Mi gloros Vin, ho Eternulo, inter la popoloj;   Kaj mi prikantos Vin inter la gentoj."},"4":{"verse_nr":4,"verse":"Ĉar granda ĝis super la ĉielo estas Via boneco,   Kaj ĝis la nuboj estas Via vero."},"5":{"verse_nr":5,"verse":"Altiĝu super la ĉielo, ho Dio;   Kaj Via gloro estu super la tuta tero."},"6":{"verse_nr":6,"verse":"Por ke liberiĝu viaj amatoj,   Helpu per Via dekstra mano, kaj aŭskultu min."},"7":{"verse_nr":7,"verse":"Dio diris en Sia sanktejo:Mi triumfos;   Mi dividos Ŝeĥemon, kaj la valon Sukot Mi mezuros."},"8":{"verse_nr":8,"verse":"Al Mi apartenas Gilead, al Mi apartenas Manase;   Efraim estas la forto de Mia kapo,   Jehuda estas Mia sceptro."},"9":{"verse_nr":9,"verse":"Moab estas Mia lavopelvo;   Sur Edomon Mi ĵetos Mian ŝuon;   Super Filiŝtujo Mi triumfe krios."},"10":{"verse_nr":10,"verse":"Kiu enkondukos min en fortikigitan urbon?   Kiu alkondukos min ĝis Edom?"},"11":{"verse_nr":11,"verse":"Ĉu ne Vi, ho Dio, forlasis nin?   Vi ne eliras, ho Dio, kun niaj militistaroj."},"12":{"verse_nr":12,"verse":"Donu al ni helpon kontraŭ la malamiko;   Vanta estas helpo de homo."},"13":{"verse_nr":13,"verse":"Kun Dio ni faros heroaĵojn;   Kaj Li dispremos niajn malamikojn."}};
+
+    export const CxapitroCentOk = {
+        key: 'Psalmaro 108',
+        chapterNum: 108,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

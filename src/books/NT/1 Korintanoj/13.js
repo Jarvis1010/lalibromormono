@@ -1,0 +1,9 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Se mi parolus la lingvojn de homoj kaj anĝeloj, sed ne havus amon, mi fariĝus sonanta kupro aŭ tintanta cimbalo."},"2":{"verse_nr":2,"verse":"Kaj se mi posedus la profetpovon, kaj komprenus ĉiujn misterojn kaj ĉian scion; kaj se mi havus ĉian fidon, tiel ke mi povus formovi montojn,  sed ne havus amon, mi estus nenio."},"3":{"verse_nr":3,"verse":"Kaj se mi disdonus mian tutan havon por nutri la malsatulojn, kaj se mi lasus mian korpon por forbrulo, sed ne havus amon, per tio mi neniom profitus."},"4":{"verse_nr":4,"verse":"Amo longe suferas, kaj bonfaras; amo ne envias; amo ne fanfaronas, ne ŝveligas sin,"},"5":{"verse_nr":5,"verse":"ne kondutas nedece, ne celas por si mem, ne koleriĝas, ne pripensas malbonon,"},"6":{"verse_nr":6,"verse":"ne ĝojas pri maljusteco, sed kunĝojas kun vereco;"},"7":{"verse_nr":7,"verse":"ĉion toleras, ĉion kredas, ĉion esperas, ĉion eltenas."},"8":{"verse_nr":8,"verse":"Amo neniam pereas; sed, ĉu estas profetadoj, ili neniiĝos; ĉu lingvoj, ili ĉesiĝos; ĉu estas scio, ĝi neniiĝos."},"9":{"verse_nr":9,"verse":"Ĉar ni scias laŭparte, kaj ni profetadas laŭparte;"},"10":{"verse_nr":10,"verse":"sed kiam venos perfektaĵo, tiam neniiĝos tio, kio estas laŭparta."},"11":{"verse_nr":11,"verse":"Kiam mi estis infano, kiel infano mi parolis, kiel infano mi sentis,  kiel infano mi pensis; nun fariĝinte plenaĝulo, mi jam forigis la infanaĵojn."},"12":{"verse_nr":12,"verse":"Ĉar nun ni vidas per spegulo, malhele; sed tiam okulon ĉe okulo; nun mi konas laŭparte; sed tiam mi konos tiel same, kiel ankaŭ mi estas konita."},"13":{"verse_nr":13,"verse":"Restas do nun fido, espero, amo, tiuj tri; kaj la plej granda el ili estas amo."}};
+
+    export const CxapitroDekTri = {
+        key: '1 Korintanoj 13',
+        
+        chapterNum: 13,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

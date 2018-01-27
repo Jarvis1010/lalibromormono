@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Psalmo de David. Al la Eternulo apartenas la tero, kaj ĉio, kio ĝin plenigas,   La mondo kaj ĉiuj ĝiaj loĝantoj."},"2":{"verse_nr":2,"verse":"Ĉar Li sur la maroj ĝin fondis  Kaj sur la akvoj ĝin fortikigis."},"3":{"verse_nr":3,"verse":"Kiu supreniros sur la monton de la Eternulo?   Kaj kiu staros ĉe Lia sankta loko?"},"4":{"verse_nr":4,"verse":"Tiu, kiu havas purajn manojn kaj senmakulan koron,   Kiu ne fordonis sian animon al malvero  Kaj ne ĵuras trompe."},"5":{"verse_nr":5,"verse":"Li ricevos benon de la Eternulo,   Kaj bonfarojn de Dio, lia savanto."},"6":{"verse_nr":6,"verse":"Tio estas la gento de Liaj adorantoj,   De la serĉantoj de Via vizaĝo, ho Dio de Jakob.  Sela."},"7":{"verse_nr":7,"verse":"Levu, pordegoj, viajn kapojn;   Kaj leviĝu, pordoj antikvaj,   Por ke eniru la Reĝo de gloro."},"8":{"verse_nr":8,"verse":"Kiu estas tiu Reĝo de gloro?   La Eternulo forta kaj potenca,   La Eternulo, la potenculo de milito."},"9":{"verse_nr":9,"verse":"Levu, pordegoj, viajn kapojn;   Kaj leviĝu, pordoj antikvaj,   Por ke eniru la Reĝo de gloro."},"10":{"verse_nr":10,"verse":"Kiu estas tiu Reĝo de gloro?   La Eternulo Cebaot,   Li estas la Reĝo de gloro.  Sela."}};
+
+    export const CxapitroDuDekKvar = {
+        key: 'Psalmaro 24',
+        chapterNum: 24,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

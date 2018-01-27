@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Ve al la lando flanke ombrata, kiu troviĝas transe de la riveroj Etiopaj,"},"2":{"verse_nr":2,"verse":"kiu sendas senditojn per la maro kaj per kanaj ŝipoj sur la akvo! Iru,  rapidaj senditoj, al la popolo grandkreska kaj glathaŭta, al la popolo, kiu estas pli terura, ol kia ajn alia, al la popolo laŭregulara kaj piedpremanta, kies landon tratranĉas riveroj."},"3":{"verse_nr":3,"verse":"Vi ĉiuj, kiuj troviĝas en la mondo kaj loĝas sur la tero! rigardu,  kiam oni levos standardon; kaj aŭskultu, kiam oni ekblovos per trumpeto."},"4":{"verse_nr":4,"verse":"Ĉar tiel diris al mi la Eternulo:Mi restos trankvila kaj rigardos en Mia loĝejo, kiel serena varmego ĉe hela lumo, kiel rosa nubo ĉe varmego de rikolto."},"5":{"verse_nr":5,"verse":"Ĉar antaŭ la rikolto, kiam la florado finiĝis kaj la floro fariĝis matura bero, Li detranĉos la branĉojn per tranĉiloj kaj deprenos la vinberbranĉojn."},"6":{"verse_nr":6,"verse":"Ĉio kune estos lasita por la rabobirdoj de la montoj kaj por la bestoj de la tero; kaj la rabobirdoj loĝos super ĝi en somero, kaj ĉiaj bestoj de la tero super ĝi vintros."},"7":{"verse_nr":7,"verse":"En tiu tempo sur la lokon de la nomo de la Eternulo Cebaot, sur la monton Cion, alportos donacojn al la Eternulo Cebaot la popolo grandkreska kaj glathaŭta, la popolo, kiu estas pli terura, ol kia ajn alia, la popolo laŭregulara kaj piedpremanta, kies landon tratranĉas riveroj."}};
+
+    export const CxapitroDekOk = {
+        key: 'Jesaja 18',
+        chapterNum: 18,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

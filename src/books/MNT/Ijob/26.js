@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Ijob respondis kaj diris:"},"2":{"verse_nr":2,"verse":"Kiel vi helpas al tiu, kiu ne havas forton!   Kiel vi subtenas tiun, kies brako estas senforta!"},"3":{"verse_nr":3,"verse":"Kian konsilon vi donas al tiu, kiu ne havas saĝon,   Kaj kiel grandan prudenton vi montras!"},"4":{"verse_nr":4,"verse":"Al kiu vi parolas vortojn?   Kaj kies spirito eliras el vi?"},"5":{"verse_nr":5,"verse":"La mortintoj tremas sub la akvo,   Kaj ankaŭ tiuj, kiuj vivas en ĝi."},"6":{"verse_nr":6,"verse":"Ŝeol estas malkovrita antaŭ Li,   Kaj la abismo ne havas kovron."},"7":{"verse_nr":7,"verse":"Li etendis la nordon super la malpleno,   Li pendigis la teron sur nenio."},"8":{"verse_nr":8,"verse":"Li ligas la akvon en Siaj nuboj,   Kaj nubo ne krevas sub tio."},"9":{"verse_nr":9,"verse":"Li kovras la tronon  Kaj etendas ĉirkaŭ ĝi Sian nubon."},"10":{"verse_nr":10,"verse":"Li faris limon sur la akvo,   Ĝis la loko, kie finiĝas la lumo kaj la mallumo."},"11":{"verse_nr":11,"verse":"La kolonoj de la ĉielo ŝanceliĝas  Kaj tremas de Lia krio."},"12":{"verse_nr":12,"verse":"Per Sia forto Li kvietigas la maron,   Kaj per Sia saĝo Li frakasas Rahabon."},"13":{"verse_nr":13,"verse":"Per Lia spirito belegiĝis la ĉielo;   Lia mano trapikas la tordiĝantan serpenton."},"14":{"verse_nr":14,"verse":"Jen tio estas parto de Liaj vojoj;   Kaj nur iometon ni aŭdis pri Li.   Kiu povas kompreni la tondron de Lia potenco?"}};
+
+    export const CxapitroDuDekSes = {
+        key: 'Ijob 26',
+        chapterNum: 26,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

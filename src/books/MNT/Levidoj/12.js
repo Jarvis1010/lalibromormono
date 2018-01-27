@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Kaj la Eternulo ekparolis al Moseo, dirante:"},"2":{"verse_nr":2,"verse":"Diru al la Izraelidoj jene:Se virino fruktigos semon kaj naskos knabeton, tiam ŝi estos malpura dum sep tagoj; kiel en la tagoj de sia monataĵa suferado ŝi estos malpura."},"3":{"verse_nr":3,"verse":"Kaj en la oka tago oni cirkumcidu la karnon de lia prepucio."},"4":{"verse_nr":4,"verse":"Tridek tri tagojn ŝi restu en la sango de sia puriĝo; nenion sanktan ŝi tuŝu kaj en la sanktejon ŝi ne venu, ĝis finiĝos la tagoj de ŝia puriĝo."},"5":{"verse_nr":5,"verse":"Se ŝi naskos knabineton, tiam ŝi estu malpura dum du semajnoj kiel ĉe sia monataĵo, kaj sesdek ses tagojn ŝi restu en la sango de sia puriĝo."},"6":{"verse_nr":6,"verse":"Kaj kiam finiĝos la tagoj de ŝia puriĝo post filo aŭ filino, ŝi alportu jaraĝan ŝafidon kiel bruloferon, kaj kolombidon aŭ turton kiel pekoferon, al la pordo de la tabernaklo de kunveno, al la pastro."},"7":{"verse_nr":7,"verse":"Kaj li tion alportos antaŭ la Eternulon kaj pekliberigos ŝin, kaj ŝi puriĝos de sia sangofluado. Tio estas la leĝo pri naskintino, ĉu de knabo,  ĉu de knabino."},"8":{"verse_nr":8,"verse":"Kaj se ŝi ne estas sufiĉe bonstata, por alporti ŝafidon, tiam ŝi prenu du turtojn aŭ du kolombidojn, unu kiel bruloferon kaj la duan kiel pekoferon; kaj la pastro pekliberigos ŝin, kaj ŝi puriĝos."}};
+
+    export const CxapitroDekDu = {
+        key: 'Levidoj 12',
+        chapterNum: 12,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

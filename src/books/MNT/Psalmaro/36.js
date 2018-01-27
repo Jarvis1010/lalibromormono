@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. De David, sklavo de la Eternulo. La pekado de malpiulo parolas al lia koro;   Antaŭ liaj okuloj ne ekzistas timo antaŭ Dio."},"2":{"verse_nr":2,"verse":"Ĉar ĝi flatas al li en liaj okuloj,   Ĝis lia pekado eltroviĝos kaj li malamiĝos."},"3":{"verse_nr":3,"verse":"La paroloj de lia buŝo estas krimo kaj malvero;   Li ne volas kompreni, por fari bonon."},"4":{"verse_nr":4,"verse":"Krimon li pripensas sur sia kuŝejo;   Li staras sur vojo ne bona;   Malbonon li ne abomenas."},"5":{"verse_nr":5,"verse":"Ho Eternulo, ĝis la ĉielo atingas Via boneco,   Via vereco ĝis la nuboj."},"6":{"verse_nr":6,"verse":"Via justeco estas kiel la montoj de Dio,   Viaj juĝoj estas granda abismo;   Homon kaj bruton Vi helpas, ho Eternulo."},"7":{"verse_nr":7,"verse":"Kiel grandvalora estas Via favoro, ho Dio!   Kaj la homidoj ricevas rifuĝon en la ombro de Viaj flugiloj."},"8":{"verse_nr":8,"verse":"Ili satiĝas per la riĉa havo de Via domo,   Kaj el la rivero de Viaj bonaĵoj Vi ilin trinkigas."},"9":{"verse_nr":9,"verse":"Ĉar ĉe Vi estas la fonto de vivo,   Kaj en Via lumo ni vidas lumon."},"10":{"verse_nr":10,"verse":"Venigu Vian favoron sur tiujn, kiuj Vin konas,   Kaj Vian bonecon sur la honestulojn."},"11":{"verse_nr":11,"verse":"Ne paŝu sur min piedo de fiereco,   Kaj mano de malpiuloj ne renversu min."},"12":{"verse_nr":12,"verse":"Tie falu la farantoj de malbono;   Ili estu renversitaj kaj ne povu sin levi."}};
+
+    export const CxapitroTriDekSes = {
+        key: 'Psalmaro 36',
+        chapterNum: 36,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

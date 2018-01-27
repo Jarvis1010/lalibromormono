@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. Por la gitito. Psalmo de la Koraĥidoj. Kiel ĉarmaj estas Viaj loĝejoj, ho Eternulo Cebaot!"},"2":{"verse_nr":2,"verse":"Mia animo deziras kaj sopiras al la kortoj de la Eternulo;   Mia koro kaj mia korpo sentas ravon pri la viva Dio."},"3":{"verse_nr":3,"verse":"Eĉ birdo trovas domon kaj hirundo neston por si,   En kiu ĝi tenas siajn idojn:   Viajn altarojn, ho Eternulo Cebaot, mia Reĝo kaj mia Dio."},"4":{"verse_nr":4,"verse":"Feliĉaj estas tiuj, kiuj loĝas en Via domo:   Ili laŭdas Vin konstante.  Sela."},"5":{"verse_nr":5,"verse":"Feliĉaj estas la homoj, kies forto estas en Vi,   Kaj en kies koro estas Viaj vojoj;"},"6":{"verse_nr":6,"verse":"Kiuj pasas tra la Valo de Ploro kaj faras tie fontojn,   Kaj la printempa pluvo ĝin kovras per benoj;"},"7":{"verse_nr":7,"verse":"Ili iras de forto al forto,   Aperas antaŭ Dio sur Cion."},"8":{"verse_nr":8,"verse":"Ho Eternulo, Dio Cebaot, aŭdu mian preĝon;   Aŭskultu, ho Dio de Jakob!  Sela."},"9":{"verse_nr":9,"verse":"Nia ŝildo, vidu, ho Dio,   Kaj rigardu la vizaĝon de Via sanktoleito."},"10":{"verse_nr":10,"verse":"Ĉar tago en Viaj kortoj estas pli bona, ol mil aliaj:   Mi preferas stari sur la sojlo de la domo de mia Dio,   Ol loĝi en tendoj de malvirto."},"11":{"verse_nr":11,"verse":"Ĉar Dio, la Eternulo, estas suno kaj ŝildo;   Favoron kaj honoron donas la Eternulo;   Li ne domaĝas bonon al tiuj, kiuj iras en virto."},"12":{"verse_nr":12,"verse":"Ho Eternulo Cebaot, bone estas al la homo, kiu Vin fidas."}};
+
+    export const CxapitroOkDekKvar = {
+        key: 'Psalmaro 84',
+        chapterNum: 84,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

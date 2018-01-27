@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Kaj duafoje aperis al Jona vorto de la Eternulo, dirante:"},"2":{"verse_nr":2,"verse":"Leviĝu, iru en la grandan urbon Nineve, kaj prediku al ĝi la predikon,  kiun Mi diros al vi."},"3":{"verse_nr":3,"verse":"Tiam Jona leviĝis kaj iris en Nineven, konforme al la vorto de la Eternulo. Nineve estis granda urbo ĉe Dio; ĝi havis la grandecon de tri tagoj da irado."},"4":{"verse_nr":4,"verse":"Kiam Jona komencis la trairadon de la urbo kaj trairis unu tagon, li vokis, kaj diris:Post kvardek tagoj Nineve pereos."},"5":{"verse_nr":5,"verse":"La loĝantoj de Nineve ekkredis je Dio, proklamis faston, kaj metis sur sin sakaĵon, de la grandaj ĝis la malgrandaj inter ili."},"6":{"verse_nr":6,"verse":"Kiam tion aŭdis la reĝo de Nineve, li leviĝis de sia trono, demetis de si sian reĝan veston, kovris sin per sakaĵo, kaj sidiĝis sur cindro."},"7":{"verse_nr":7,"verse":"Kaj li ordonis proklami en Nineve en la nomo de la reĝo kaj de liaj altranguloj jenon:La homoj kaj la brutoj, la bovoj kaj la ŝafoj, gustumu nenion, ili ne paŝtiĝu kaj ne trinku akvon;"},"8":{"verse_nr":8,"verse":"kaj la homoj kaj la brutoj kovru sin per sakaĵo, kaj voku forte al Dio,  kaj ĉiu deturnu sin de sia malbona vojo kaj de la perfortaĵoj de siaj manoj:"},"9":{"verse_nr":9,"verse":"eble Dio bedaŭros, kaj forlasos Sian flaman koleron, kaj ni ne pereos."},"10":{"verse_nr":10,"verse":"Kiam Dio vidis iliajn farojn, ke ili deturnis sin de sia malbona vojo,  Dio bedaŭris la malbonon, kiun Li minacis fari al ili, kaj Li tion ne faris."}};
+
+    export const CxapitroTri = {
+        key: 'Jona 3',
+        chapterNum: 3,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

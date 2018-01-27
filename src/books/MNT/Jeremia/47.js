@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Jen estas la vorto de la Eternulo, kiu aperis al la profeto Jeremia pri la Filiŝtoj, antaŭ ol Faraono venkobatis Gazan:"},"2":{"verse_nr":2,"verse":"Tiele diras la Eternulo:Jen venos akvo de norde, kaj ĝi fariĝos inundanta torento, kaj ĝi inundos la landon, kaj ĉion, kio estas en ĝi, la urbon kaj ĝiajn loĝantojn; ekkrios la homoj, kaj ekploregos ĉiuj loĝantoj de la lando."},"3":{"verse_nr":3,"verse":"Pro la sonado de la hufoj de la fortaj ĉevaloj, pro la bruo de la ĉaroj, pro la bruego de la radoj la patroj ne atentos siajn infanojn,  senforte malleviĝos iliaj manoj;"},"4":{"verse_nr":4,"verse":"pro la tago, kiu venos, kiam oni prirabos ĉiujn Filiŝtojn, ekstermos ĉe Tiro kaj Cidon ĉiujn restintajn helpantojn; ĉar la Eternulo ruinigos la Filiŝtojn, la restaĵon de la insulo Kaftor."},"5":{"verse_nr":5,"verse":"Kalveco trafos Gazan, pereos Aŝkelon kaj la restaĵo de ilia valo. Kiel longe ankoraŭ vi faros al vi tranĉojn?"},"6":{"verse_nr":6,"verse":"Ho glavo de la Eternulo, kiel longe vi ne kvietiĝos? eniru en vian ingon, haltu kaj silentu."},"7":{"verse_nr":7,"verse":"Sed kiel vi povas kvietiĝi? la Eternulo donis al ĝi ordonon kontraŭ Aŝkelon kaj kontraŭ la bordo de la maro; tien Li destinis ĝin."}};
+
+    export const CxapitroKvarDekSep = {
+        key: 'Jeremia 47',
+        chapterNum: 47,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

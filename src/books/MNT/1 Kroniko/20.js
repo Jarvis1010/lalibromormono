@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Post paso de unu jaro, en la tempo, kiam la reĝoj eliras milite, Joab kondukis la militistaron kaj komencis ruinigi la landon de la Amonidoj, kaj li venis kaj eksieĝis Raban. Sed David restis en Jerusalem. Kaj Joab venkobatis Raban kaj detruis ĝin."},"2":{"verse_nr":2,"verse":"Kaj David prenis la kronon de Malkam de lia kapo; li trovis, ke ĝi enhavas laŭpeze kikaron da oro, kaj estis en ĝi multekosta ŝtono, kiu transiris sur la kapon de David. Kaj da militakiraĵo li elportis el la urbo tre multe."},"3":{"verse_nr":3,"verse":"Kaj la popolon, kiu estis tie, li elirigis, kaj mortigis per segiloj,  feraj draŝiloj, kaj hakiloj. Tiele David agis kun ĉiuj urboj de la Amonidoj. Kaj David kun la tuta popolo revenis Jerusalemon."},"4":{"verse_nr":4,"verse":"Post tio komenciĝis milito en Gezer, kontraŭ la Filiŝtoj; tiam Sibĥaj, la Ĥuŝaido, mortigis Sipajon, unu el la infanoj de la giganto. Kaj ili humiliĝis."},"5":{"verse_nr":5,"verse":"Kaj denove estis milito kun la Filiŝtoj; kaj Elĥanan, filo de Jair,  mortigis Laĥmin, fraton de Goljat, la Gatano, ĉe kiu la tenilo de lia lanco estis kiel rultrabo de teksisto."},"6":{"verse_nr":6,"verse":"Kaj denove estis milito en Gat; tie estis viro tre altkreska, kiu havis po ses fingroj, sume dudek kvar; li ankaŭ naskiĝis al la giganto."},"7":{"verse_nr":7,"verse":"Kiam li insultis Izraelon, lin mortigis Jonatan, filo de Ŝimea, frato de David."},"8":{"verse_nr":8,"verse":"Tiuj naskiĝis al la giganto en Gat, kaj ili falis de la mano de David kaj de la manoj de liaj servantoj."}};
+
+    export const CxapitroDuDek = {
+        key: '1 Kroniko 20',
+        chapterNum: 20,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

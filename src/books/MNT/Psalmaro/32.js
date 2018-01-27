@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Instruo de David. Feliĉa estas tiu, kies krimo estas pardonita,  kies peko estas kovrita."},"2":{"verse_nr":2,"verse":"Feliĉa estas la homo, al kiu la Eternulo ne kalkulas lian kulpon  Kaj en kies spirito estas nenia malvero."},"3":{"verse_nr":3,"verse":"Kiam mi silentis, miaj ostoj senfortiĝis  De mia ĉiutaga ploregado."},"4":{"verse_nr":4,"verse":"Ĉar tage kaj nokte pezis sur mi Via mano;   La freŝecon de mia sukoj anstataŭis sekeco de somero.  Sela."},"5":{"verse_nr":5,"verse":"Mian pekon mi konfesis al Vi, kaj mian kulpon mi ne kaŝis;   Mi diris:Mi konfesos miajn krimojn al la Eternulo;   Kaj Vi deprenis la kulpon de mia peko.  Sela."},"6":{"verse_nr":6,"verse":"Pro tio preĝu antaŭ Vi ĉiu piulo en favora tempo,   Por ke ĉe la disverŝiĝo de grandaj akvoj ili lin ne atingu."},"7":{"verse_nr":7,"verse":"Vi estas mia ŝirmo;   Kontraŭ sufero Vi min gardos,   Per kantoj de savo Vi min ĉirkaŭos.  Sela."},"8":{"verse_nr":8,"verse":"Mi prudentigos vin, kaj montros al vi la vojon, kiun vi devas iri;   Kun konsiloj Mi direktos sur vin Mian okulon."},"9":{"verse_nr":9,"verse":"Ne estu kiel ĉevalo, kiel senprudenta mulo,   Al kiuj oni devas kateni la buŝon per brido kaj buŝpeco,   Alie ili ne venos al vi."},"10":{"verse_nr":10,"verse":"Multajn frapojn havas la malpiulo;   Sed kiu fidas la Eternulon, tiun ĉirkaŭas favoro."},"11":{"verse_nr":11,"verse":"Ĝoju pro la Eternulo, kaj gaju, ho justuloj;   Kaj triumfu ĉiuj, kiuj havas pian koron!"}};
+
+    export const CxapitroTriDekDu = {
+        key: 'Psalmaro 32',
+        chapterNum: 32,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"La Eternulo reĝas; ĝoju la tero;   Estu gajaj la multaj insuloj."},"2":{"verse_nr":2,"verse":"Nubo kaj mallumo estas ĉirkaŭ Li;   Vero kaj justeco estas la fundamento de Lia trono."},"3":{"verse_nr":3,"verse":"Fajro iras antaŭ Li,   Kaj bruligas ĉirkaŭe Liajn malamikojn."},"4":{"verse_nr":4,"verse":"Liaj fulmoj lumigas la mondon;   La tero vidas, kaj tremas."},"5":{"verse_nr":5,"verse":"Montoj fandiĝas kiel vakso antaŭ la vizaĝo de la Eternulo,   Antaŭ la vizaĝo de la Sinjoro de la tuta tero."},"6":{"verse_nr":6,"verse":"La ĉielo rakontas Lian veron,   Kaj ĉiuj popoloj vidas Lian gloron."},"7":{"verse_nr":7,"verse":"Hontiĝu ĉiuj, kiuj servas al idoloj,   Kiuj laŭdas sin pro diaĉoj.   Kliniĝu antaŭ Li ĉiuj dioj."},"8":{"verse_nr":8,"verse":"Aŭdis kaj ekĝojis Cion,   Kaj ektriumfis la filinoj de Jehuda  Pro Viaj juĝoj, ho Eternulo."},"9":{"verse_nr":9,"verse":"Ĉar Vi, ho Eternulo, estas Plejalta super la tuta tero,   Vi tre alte leviĝis super ĉiuj dioj."},"10":{"verse_nr":10,"verse":"Amantoj de la Eternulo, malamu malbonon.   Li gardas la animojn de Siaj fideluloj;   Li savos ilin de la mano de malvirtuloj."},"11":{"verse_nr":11,"verse":"Lumo verŝiĝas sur virtulon,   Kaj ĝojo sur purkorulojn."},"12":{"verse_nr":12,"verse":"Ĝoju, virtuloj, pro la Eternulo,   Kaj gloru Lian sanktan nomon."}};
+
+    export const CxapitroNauDekSep = {
+        key: 'Psalmaro 97',
+        chapterNum: 97,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Kantu al la Eternulo novan kanton;   Kantu al la Eternulo la tuta tero."},"2":{"verse_nr":2,"verse":"Kantu al la Eternulo, gloru Lian nomon,   Proklamu de tago al tago Lian savon."},"3":{"verse_nr":3,"verse":"Rakontu inter la popoloj Lian gloron,   Inter ĉiuj gentoj Liajn miraklojn."},"4":{"verse_nr":4,"verse":"Ĉar la Eternulo estas granda kaj tre glorinda,   Li estas timinda pli ol ĉiuj dioj."},"5":{"verse_nr":5,"verse":"Ĉar ĉiuj dioj de la popoloj estas nur idoloj;   Sed la Eternulo kreis la ĉielon."},"6":{"verse_nr":6,"verse":"Gloro kaj majesto estas antaŭ Li,   Forto kaj beleco estas en Lia sanktejo."},"7":{"verse_nr":7,"verse":"Tributu al la Eternulo, familioj de la popoloj;   Tributu al la Eternulo gloron kaj potencon."},"8":{"verse_nr":8,"verse":"Tributu al la Eternulo la honoron de Lia nomo;   Alportu donacon kaj venu en Liajn kortojn."},"9":{"verse_nr":9,"verse":"Kliniĝu al la Eternulo en sankta ornamo;   Tremu antaŭ Li la tuta tero."},"10":{"verse_nr":10,"verse":"Diru inter la popoloj:La Eternulo reĝas,   Kaj fortikigita estas la mondo, ke ĝi ne ŝanceliĝu;   Li juĝas la popolojn en justeco."},"11":{"verse_nr":11,"verse":"Ĝoju la ĉielo, kaj estu gaja la tero,   Bruu la maro, kaj ĉio, kio ĝin plenigas."},"12":{"verse_nr":12,"verse":"Ĝoju la kampo, kaj ĉio, kio estas sur ĝi;   Tiam kantu ĉiuj arboj de la arbaro"},"13":{"verse_nr":13,"verse":"Antaŭ la Eternulo, ĉar Li venas,   Ĉar Li venas, por juĝi la teron;   Li juĝos la mondon kun justeco  Kaj la popolojn kun Sia fideleco."}};
+
+    export const CxapitroNauDekSes = {
+        key: 'Psalmaro 96',
+        chapterNum: 96,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

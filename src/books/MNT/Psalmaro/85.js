@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. Psalmo de la Koraĥidoj. Vi korfavoris, ho Eternulo, Vian landon,   Vi revenigis la forkaptitojn de Jakob;"},"2":{"verse_nr":2,"verse":"Vi pardonis la kulpon de Via popolo,   Vi kovris ĉiujn ĝiajn pekojn.  Sela."},"3":{"verse_nr":3,"verse":"Vi retenis Vian tutan koleron,   Forlasis Vian furiozon."},"4":{"verse_nr":4,"verse":"Turnu Vin al ni, ho Dio de nia savo,   Kaj ĉesigu Vian koleron kontraŭ ni."},"5":{"verse_nr":5,"verse":"Ĉu eterne Vi nin koleros,   Daŭrigos Vian koleron de generacio al generacio?"},"6":{"verse_nr":6,"verse":"Ĉu Vi ne revivigos nin denove,   Ke Via popolo ĝoju per Vi?"},"7":{"verse_nr":7,"verse":"Aperigu al ni, ho Eternulo, Vian favoron,   Kaj Vian helpon donu al ni."},"8":{"verse_nr":8,"verse":"Mi aŭdu, kion diras Dio, la Eternulo;   Ĉar Li deklaros pacon al Sia popolo kaj al Siaj fideluloj,   Ke ili ne reiru al malsaĝeco."},"9":{"verse_nr":9,"verse":"Jam proksima estas Lia helpo al tiuj, kiuj Lin timas,   Por ke ekregu honoro en nia lando."},"10":{"verse_nr":10,"verse":"Bono kaj vero renkontiĝas,   Justeco kaj paco sin kisas."},"11":{"verse_nr":11,"verse":"Vero elkreskas el la tero,   Kaj justeco rigardas el la ĉielo."},"12":{"verse_nr":12,"verse":"Kaj la Eternulo donos bonon,   Kaj nia tero donos siajn produktojn."},"13":{"verse_nr":13,"verse":"Justeco iros antaŭ Li  Kaj faros vojon por Liaj paŝoj."}};
+
+    export const CxapitroOkDekKvin = {
+        key: 'Psalmaro 85',
+        chapterNum: 85,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Profetaĵo pri Moab:  En nokto ruiniga pereis Ar-Moab, en nokto ruiniga pereis Kir-Moab."},"2":{"verse_nr":2,"verse":"Ili iris en la domon kaj sur la altaĵojn de Dibon, por plori; pri Nebo kaj Medba ĝemploras Moab; ĉiuj kapoj estas kalvaj, ĉiuj barboj estas razitaj."},"3":{"verse_nr":3,"verse":"Sur siaj stratoj ili ĉirkaŭzonis sin per sakaĵoj; sur iliaj tegmentoj kaj placoj ĉiuj ĝemkrias, konsumiĝas per plorado."},"4":{"verse_nr":4,"verse":"Krias Ĥeŝbon kaj Eleale, ĝis Jahac oni aŭdas ilian voĉon; tial ĝemploras la armitoj de Moab, lia animo tremas en li."},"5":{"verse_nr":5,"verse":"Mia koro krias pro Moab; liaj forkurintoj kuras ĝis Coar, ĝis la tria Eglat; ĉar laŭ la vojo supren al Luĥit ili iras plorante, ĉar sur la vojo al Ĥoronaim leviĝas kriado de malfeliĉo."},"6":{"verse_nr":6,"verse":"Ĉar la akvo de Nimrim sekforiĝis, ĉar sekiĝis la herbo, malaperis kreskaĵoj, verdaĵo jam ne ekzistas."},"7":{"verse_nr":7,"verse":"Tial la abundaĵon, kiun ili kolektis, kaj sian ŝparitaĵon ili transportas trans la riveron de la salikoj."},"8":{"verse_nr":8,"verse":"Ĉar la kriado ĉirkaŭas la limojn de Moab, ĝis Eglaim atingas lia plorado, kaj ĝis Beer-Elim atingas lia plorado."},"9":{"verse_nr":9,"verse":"Ĉar la akvo de Dimon estas plena de sango; ĉar Mi ankoraŭ pli multe venigos sur Dimonon, leonon sur la saviĝintojn de Moab kaj sur la restaĵon de la lando."}};
+
+    export const CxapitroDekKvin = {
+        key: 'Jesaja 15',
+        chapterNum: 15,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    

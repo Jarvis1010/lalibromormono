@@ -1,0 +1,8 @@
+const chapter = {"1":{"verse_nr":1,"verse":"Al la ĥorestro. Psalmo de David. Ho Eternulo, pro Via forto ĝojas la reĝo,   Kaj pro Via helpo kiel forte li triumfas!"},"2":{"verse_nr":2,"verse":"Kion lia koro deziris, tion Vi donis al li;   Kaj la peton de lia buŝo Vi ne rifuzis. Sela."},"3":{"verse_nr":3,"verse":"Vi antaŭvenas al li kun beno de bono;   Vi metis sur lian kapon kronon el pura oro."},"4":{"verse_nr":4,"verse":"Vivon li petis de Vi;   Kaj Vi donis al li longan vivon por ĉiam kaj eterne."},"5":{"verse_nr":5,"verse":"Granda estas lia honoro pro Via helpo;   Gloron kaj majeston Vi metis sur lin."},"6":{"verse_nr":6,"verse":"Vi donas al li eternajn benojn;   Vi gajigas lin per ĝojo antaŭ Via vizaĝo."},"7":{"verse_nr":7,"verse":"Ĉar la reĝo fidas la Eternulon,   Kaj pro favoro de la Plejaltulo li ne falos."},"8":{"verse_nr":8,"verse":"Trovos Via mano ĉiujn Viajn malamikojn,   Via dekstra trovos Viajn malamantojn."},"9":{"verse_nr":9,"verse":"Vi similigos ilin al brulanta forno, kiam Vi koleros;   La Eternulo englutos ilin per Sia kolero,   Kaj fajro ilin formanĝos."},"10":{"verse_nr":10,"verse":"Ilian naskitaron Vi ekstermos de sur la tero,   Kaj ilian semon el inter la homidoj."},"11":{"verse_nr":11,"verse":"Ĉar ili preparis malbonon por Vi,   Pripensis atencon, sed ne povis ĝin plenumi."},"12":{"verse_nr":12,"verse":"Vi devigos ilin turni al Vi la dorson,   Viajn tendenojn Vi direktos kontraŭ iliajn vizaĝojn."},"13":{"verse_nr":13,"verse":"Leviĝu, ho Eternulo, en Via forto;   Ni kantos kaj gloros Vian potencon."}};
+
+    export const CxapitroDuDekUnu = {
+        key: 'Psalmaro 21',
+        chapterNum: 21,
+        verses: [...Object.keys(chapter).map(key => `${key}. ${chapter[key].verse}`)],
+      };
+    
