@@ -1,5 +1,5 @@
 export const CxapitroKvar = {
-  key: '1 Nefai 4',
+  key: '1 Nifai 4',
   chapterNum: 4,
   verses: [
     'KAJ okazis, ke mi parolis al miaj fratoj, dirante: Ni reiru al Jerusalemo kaj ni fidele obeu la ordonojn de la Sinjoro; ĉar, li ja estas pli potenca ol la tuta tero, do kial ne pli potenca ol Laban kaj lia kvindeko, jes, aŭ eĉ liaj dekmiloj?',

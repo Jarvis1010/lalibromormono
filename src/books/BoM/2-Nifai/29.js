@@ -1,5 +1,5 @@
 export const CxapitroDuDekNau = {
-  key: '2 Nefai 29',
+  key: '2 Nifai 29',
   chapterNum: 29,
   verses: [
     'SED sciu, estos multaj en tiu tago, kiam mi faros mirindan verkon inter ili, por ke mi memoru miajn interligojn, kiujn mi faris kun la homidoj, por ke mi denove la duan fojon etendu mian manon por reakiri mian popolon, kiu estas el la domo de Izrael;',

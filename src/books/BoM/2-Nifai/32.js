@@ -1,5 +1,5 @@
 export const CxapitroTriDekDu = {
-  key: '2 Nefai 32',
+  key: '2 Nifai 32',
   chapterNum: 32,
   verses: [
     'KAJ nun, miaj amataj fratoj, mi supozas, ke en viaj koroj vi iom pripensas pri tio, kion vi faru post kiam vi eniras sur la vojon. Sed, kial vi pripensas tion en viaj koroj?',

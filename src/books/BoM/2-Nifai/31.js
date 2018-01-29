@@ -1,5 +1,5 @@
 export const CxapitroTriDekUnu = {
-  key: '2 Nefai 31',
+  key: '2 Nifai 31',
   chapterNum: 31,
   verses: [
     'KAJ nun mi, Nifai, ĉesas profeti al vi, miaj amataj fratoj. Kaj mi povas skribi pri nur kelkaj aferoj, kiuj, mi scias, certe okazos; kaj mi povas skribi nur kelkajn el la vortoj de mia frato Jakobo.',

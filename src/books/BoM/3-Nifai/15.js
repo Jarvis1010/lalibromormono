@@ -1,5 +1,5 @@
 export const CxapitroDekKvin = {
-  key: '3 Nefai 15',
+  key: '3 Nifai 15',
   chapterNum: 15,
   verses: [
     'KAJ tiam okazis, kiam Jesuo finis ĉi tiujn parolojn, ke li ĵetis siajn rigardojn ĉirkaŭen sur la homamason, kaj diris al ili: Jen, vi aŭdis tion, kion mi instruis antaŭ ol mi supreniris al mia Patro; tial ĉiun, kiu memoras ĉi tiujn miajn parolojn, mi levos en la lasta tago.',

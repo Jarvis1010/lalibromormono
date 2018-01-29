@@ -10,7 +10,7 @@ import { CxapitroTriDekDu } from './32';
 import { CxapitroTriDekTri } from './33';
 
 export const DuNefai = {
-  key: '2 Nefai',
+  key: '2 Nifai',
   chapters: [
     CxapitroUnu,
     CxapitroDu,

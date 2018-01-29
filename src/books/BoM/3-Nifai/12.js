@@ -1,5 +1,5 @@
 export const CxapitroDekDu = {
-  key: '3 Nefai 12',
+  key: '3 Nifai 12',
   chapterNum: 12,
   verses: [
     'KAJ okazis, post kiam Jesuo parolis ĉi tiujn vortojn al Nifai, kaj al tiuj, kiuj estis vokitaj, (tiam la nombro de tiuj, kiuj estis vokitaj kaj ricevis potencon kaj aŭtoritaton bapti, estis dek du) ke jen, li etendis sian manon al la homamaso, kaj kriis al ili, dirante; Benataj estas vi, se vi atentos la vortojn de ĉi tiuj dek du, kiujn mi elektis el inter vi por pastrohelpi al vi kaj esti viaj servantoj; kaj al ili mi donis aŭtoritaton, por ke ili povu bapti vin per akvo; kaj, kiam vi estos baptitaj per akvo, jen, mi baptos vin per fajro kaj per la Sankta Spirito; tial benataj estas vi se vi kredos je mi kaj estos baptitaj, post kiam vi vidis min kaj scias, ke mi estas.',

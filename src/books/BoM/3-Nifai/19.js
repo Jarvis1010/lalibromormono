@@ -1,5 +1,5 @@
 export const CxapitroDekNau = {
-  key: '3 Nefai 19',
+  key: '3 Nifai 19',
   chapterNum: 19,
   verses: [
     'KAJ okazis, post kiam Jesuo supreniris en la ĉielon, ke la homamaso disiris, kaj ĉiu viro prenis sian edzinon kaj siajn infanojn kaj reiris al sia hejmo.',

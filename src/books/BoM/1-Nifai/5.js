@@ -1,5 +1,5 @@
 export const CxapitroKvin = {
-  key: '1 Nefai 5',
+  key: '1 Nifai 5',
   chapterNum: 5,
   verses: [
     'KAJ okazis, ke, post kiam ni alvenis en la dezerton al nia patro, jen li pleniĝis de ĝojo, kaj ankaŭ mia patrino Sariaĥ treege ĝojis, ĉar ŝi vere funebris pro ni.',

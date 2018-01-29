@@ -1,5 +1,5 @@
 export const CxapitroDuDekTri = {
-  key: '3 Nefai 23',
+  key: '3 Nifai 23',
   chapterNum: 23,
   verses: [
     'KAJ nun, jen, mi diras al vi, ke vi devus esplori ĉi tion. Jes, ordonon mi donas al vi, ke vi diligente esploru ĉi tion; ĉar grandaj estas la vortoj de Jesaja.',

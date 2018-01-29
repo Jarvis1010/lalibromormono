@@ -1,5 +1,5 @@
 export const CxapitroDekTri = {
-  key: '3 Nefai 13',
+  key: '3 Nifai 13',
   chapterNum: 13,
   verses: [
     'VERE, vere, mi diras, ke mi volas, ke vi donu almozojn al la malriĉuloj; sed gardu vin, ke vi ne faru vian justaĵon antaŭ homoj, por esti alrigardataj de ili; alie vi ne havas rekompencon ĉe via Patro, kiu estas en la ĉielo.',

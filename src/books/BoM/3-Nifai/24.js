@@ -1,5 +1,5 @@
 export const CxapitroDuDekKvar = {
-  key: '3 Nefai 24',
+  key: '3 Nifai 24',
   chapterNum: 24,
   verses: [
     'KAJ okazis, ke li ordonis al ili, ke ili skribu la vortojn, kiujn la Patro donis al Malachi, kiujn li diros al ili. Kaj okazis, kiam ili estis skribitaj, ke li eksplikis ilin. Kaj jen estas la vortoj, kiujn li parolis al ili, dirante: Tiel parolis la Patro al Malachi - "Jen, mi sendos mian anĝelon, kaj li preparos antaŭ mi la vojon, kaj subite venos en sian templon la Sinjoro, kiun vi serĉas, kaj la anĝelo de la interligo, kiun vi deziras, jen li iras, diras la Sinjoro de la armeoj.',

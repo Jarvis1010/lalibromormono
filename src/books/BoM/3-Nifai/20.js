@@ -1,5 +1,5 @@
 export const CxapitroDuDek = {
-  key: '3 Nefai 20',
+  key: '3 Nifai 20',
   chapterNum: 20,
   verses: [
     'KAJ okazis, ke li ordonis al la homamaso, kaj ankaŭ al siaj disĉiploj, ke ili ĉesu preĝi. Kaj li ordonis al ili, ke ili ne ĉesu preĝi en siaj koroj.',

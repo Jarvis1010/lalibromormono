@@ -1,5 +1,5 @@
 export const CxapitroDekSes = {
-  key: '1 Nefai 16',
+  key: '1 Nifai 16',
   chapterNum: 16,
   verses: [
     'KAJ tiam okazis, ke, post kiam mi, Nifai, ĉesis paroli al miaj fratoj, ili diris al mi: Vi deklaris al ni severaĵojn, pli ol kiom ni povas elporti.',

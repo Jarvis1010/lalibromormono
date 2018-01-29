@@ -1,5 +1,5 @@
 export const CxapitroKvin = {
-  key: '2 Nefai 5',
+  key: '2 Nifai 5',
   chapterNum: 5,
   verses: [
     'OKAZIS, ke mi, Nifai, multfoje kriis al la Sinjoro, mia Dio, pro la kolero de miaj fratoj.',

@@ -1,5 +1,5 @@
 export const CxapitroSes = {
-  key: '1 Nefai 6',
+  key: '1 Nifai 6',
   chapterNum: 6,
   verses: [
     'KAJ nun mi, Nifai, ne donas la genealogion de miaj prapatroj en ĉi tiu parto de mia kroniko; kaj mi neniam donos ĝin poste sur ĉi tiuj platoj, kiujn mi surskribas; ĉar ĝi estas donita en la kroniko, kiun mia patro verkis; pro tio mi ne skribas ĝin en ĉi tiu verko.',

@@ -1,5 +1,5 @@
 export const CxapitroTriDek = {
-  key: '3 Nefai 30',
+  key: '3 Nifai 30',
   chapterNum: 30,
   verses: [
     'AŬSKULTU, ho vi Nacianoj, kaj aŭdu la vortojn de Jesuo Kristo, la Filo de la vivanta Dio, kiujn li ordonis al mi, ke mi parolu koncerne vin, ĉar, jen li ordonis al mi, ke mi skribu, dirante:',

@@ -1,5 +1,5 @@
 export const CxapitroDuDekDu = {
-  key: '3 Nefai 22',
+  key: '3 Nifai 22',
   chapterNum: 22,
   verses: [
     'KAJ tiam okazos tio, kio estas skribita: ĝoju, ho senfruktulino, kiu ne naskis; sonigu kanton kaj ĝojkriu, ho vi, kiu ne suferis doloron; ĉar la forlasitino havas pli da infanoj, ol tiu havanta edzon, diras la Sinjoro.',

@@ -1,5 +1,5 @@
 export const CxapitroKvar = {
-  key: '2 Nefai 4',
+  key: '2 Nifai 4',
   chapterNum: 4,
   verses: [
     'KAJ nun mi, Nifai, parolas pri la profetaĵoj, pri kiuj mia patro parolis, koncerne Jozefon, kiu estis forkondukita en Egipton.',

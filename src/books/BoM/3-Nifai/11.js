@@ -1,5 +1,5 @@
 export const CxapitroDekUnu = {
-  key: '3 Nefai 11',
+  key: '3 Nifai 11',
   chapterNum: 11,
   verses: [
     'KAJ tiam okazis, ke granda homamaso el la popolo de Nifai kunkolektiĝis ĉirkaŭ la templo, kiu estis en la lando Abundeco; kaj ili miradis unuj kun aliaj kaj montris unuj al aliaj la grandan kaj mirindan ŝanĝon, kiu okazis.',

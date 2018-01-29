@@ -1,5 +1,5 @@
 export const CxapitroSep = {
-  key: '1 Nefai 7',
+  key: '1 Nifai 7',
   chapterNum: 7,
   verses: [
     'KAJ nun mi volas, ke vi sciu, ke, post kiam mia patro Lihai ĉesis profetadi pri sia idaro, okazis, ke la Sinjoro parolis al li denove, dirante, ke ne estas oportune, ke li, Lihai, prenu lian familion solan en la dezerton; sed ke liaj filoj prenu filinojn kiel edzinojn, por ke ili naskigu idaron por la Sinjoro en la lando de promeso.',

@@ -1,5 +1,5 @@
 export const CxapitroDekSep = {
-  key: '1 Nefai 17',
+  key: '1 Nifai 17',
   chapterNum: 17,
   verses: [
     'KAJ okazis, ke ni denove ekiris en la dezerto; kaj ni iris preskaŭ orienten ek de tiu tempo. Kaj ni iris kaj vadis tra multa afliktaĵo en la dezerto; kaj niaj virinoj naskis infanojn en la dezerto.',

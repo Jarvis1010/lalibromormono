@@ -1,5 +1,5 @@
 export const CxapitroDekOk = {
-  key: '1 Nefai 18',
+  key: '1 Nifai 18',
   chapterNum: 18,
   verses: [
     'KAJ okazis, ke ili adoris la Sinjoron, kaj eliris kun mi; kaj ni prilaboris lignon laŭ kurioza desegnaĵo. Kaj la Sinjoro montris al mi de tempo al tempo, laŭ kiu maniero mi prilaboru la lignaĵojn de la ŝipo.',

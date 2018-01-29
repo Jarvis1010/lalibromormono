@@ -1,5 +1,5 @@
 export const CxapitroDuDekKvin = {
-  key: '3 Nefai 25',
+  key: '3 Nifai 25',
   chapterNum: 25,
   verses: [
     'ĈAR jen venos tago, ardanta kiel forno: tiam ĉiuj malhumiluloj kaj malbonaguloj estos kiel pajlo; kaj la venonta tago bruligos ilin, diras la Sinjoro de la armeoj, tiel ke ĝi ne restigos al ili radikon ne branĉon.',

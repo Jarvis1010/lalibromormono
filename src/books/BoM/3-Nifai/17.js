@@ -1,5 +1,5 @@
 export const CxapitroDekSep = {
-  key: '3 Nefai 17',
+  key: '3 Nifai 17',
   chapterNum: 17,
   verses: [
     'JEN, tiam okazis, post kiam Jesuo diris ĉi tiujn vortojn, ke li ĉirkaŭrigardis la homamason denove, kaj li diris al ili: Jen, mia tempo estas proksima.',

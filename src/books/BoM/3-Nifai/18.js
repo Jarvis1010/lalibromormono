@@ -1,5 +1,5 @@
 export const CxapitroDekOk = {
-  key: '3 Nefai 18',
+  key: '3 Nifai 18',
   chapterNum: 18,
   verses: [
     'KAJ okazis, ke Jesuo ordonis al siaj disĉiploj, ke ili alportu iom da pano kaj vino al li.',

@@ -1,5 +1,5 @@
 export const CxapitroTri = {
-  key: '2 Nefai 3',
+  key: '2 Nifai 3',
   chapterNum: 3,
   verses: [
     'KAJ nun mi parolas al vi, Jozefo, mia lastenaskito. Vi naskiĝis en la dezerto de miaj afliktaĵoj; jes, en la tagoj de mia plej granda malĝojo via patrino naskis vin.',

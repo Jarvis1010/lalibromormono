@@ -1,5 +1,5 @@
 export const CxapitroTri = {
-  key: '1 Nefai 3',
+  key: '1 Nifai 3',
   chapterNum: 3,
   verses: [
     'KAJ okazis, ke mi, Nifai, parolinte kun la Sinjoro, revenis al la tendo de mia patro.',

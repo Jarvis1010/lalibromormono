@@ -1,5 +1,5 @@
 export const CxapitroNau = {
-  key: '2 Nefai 9',
+  key: '2 Nifai 9',
   chapterNum: 9,
   verses: [
     'KAJ nun, miaj amataj fratoj, mi legis ĉi tion, por ke vi sciu pri la interligoj de la Sinjoro, kiujn li ligis kiun la tuta domo de Izrael',

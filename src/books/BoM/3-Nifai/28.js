@@ -1,5 +1,5 @@
 export const CxapitroDuDekOk = {
-  key: '3 Nefai 28',
+  key: '3 Nifai 28',
   chapterNum: 28,
   verses: [
     'KAJ okazis, post kiam Jesuo diris ĉi tiujn vortojn, ke li parolis al siaj disĉiploj, unuope, dirante al ili: Kain peton vi deziras de mi, post kiam mi estos foririnta al la Patro?',

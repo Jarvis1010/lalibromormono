@@ -1,5 +1,5 @@
 export const CxapitroOk = {
-  key: '3 Nefai 8',
+  key: '3 Nifai 8',
   chapterNum: 8,
   verses: [
     'KAJ tiam okazis, ke laŭ nia kroniko, kaj ni scias, ke nia kroniko estas vera, ĉar jen, virtulo kompilis la kronikon ĉar li vere faris multajn miraklojn en la nomo de Jesuo; kaj neniu homo povis fari miraklon en la nomo de Jesuo krom tiu, kiu estis ĉiel puriĝinta de siaj pekoj -',

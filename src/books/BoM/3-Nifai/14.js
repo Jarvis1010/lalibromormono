@@ -1,5 +1,5 @@
 export const CxapitroDekKvar = {
-  key: '3 Nefai 14',
+  key: '3 Nifai 14',
   chapterNum: 14,
   verses: [
     'KAJ tiam okazis, kiam Jesuo parolis ĉi tiujn vortojn, ke li turnis sin denove al la homamaso, kaj denove malfermis sian buŝon al ili, dirante; Vere, vere, mi diras al vi, ne juĝu, por ke vi ne estu juĝataj.',

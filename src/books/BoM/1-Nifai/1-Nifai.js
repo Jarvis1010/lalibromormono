@@ -10,7 +10,7 @@ import { CxapitroDekSep } from './17';
 import { CxapitroDekOk } from './18';
 
 export const UnuNefai = {
-  key: '1 Nefai',
+  key: '1 Nifai',
   chapters: [
     CxapitroUnu,
     CxapitroDu,

@@ -1,5 +1,5 @@
 export const CxapitroDu = {
-  key: '1 Nefai 2',
+  key: '1 Nifai 2',
   chapterNum: 2,
   verses: [
     'ĈAR, aŭskultu, okazis, ke la Sinjoro efektive parolis al mia patro, nome en sonĝo, kaj diris al li: Feliĉa estas vi, Lihai, pro tio, kion vi faris; kaj pro tio, ke vi estis fidela kaj deklaris al la popolo tion, kion mi ordonis al vi, atentu, oni celas forpreni vian vivon.',

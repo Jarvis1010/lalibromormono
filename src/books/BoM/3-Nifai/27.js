@@ -1,5 +1,5 @@
 export const CxapitroDuDekSep = {
-  key: '3 Nefai 27',
+  key: '3 Nifai 27',
   chapterNum: 27,
   verses: [
     'KAJ okazis, ke vojaĝante kaj predikante tion, kion ili kaj aŭdis kaj vidis, kaj baptante en la nomo de Jesuo, la disĉiploj kolektiĝis kaj unuiĝis, ege preĝante kaj fastante.',

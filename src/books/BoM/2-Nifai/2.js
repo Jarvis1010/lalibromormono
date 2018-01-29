@@ -1,5 +1,5 @@
 export const CxapitroDu = {
-  key: '2 Nefai 2',
+  key: '2 Nifai 2',
   chapterNum: 2,
   verses: [
     'KAJ nun, Jakobo, mi parolas al vi: Vi estas mia unuenaskito en la tagoj de mia aflikto en la dezerto, Kaj en via infaneco vi ja suferis afliktojn kaj multe da malĝojo pro la krudeco de viaj fratoj.',

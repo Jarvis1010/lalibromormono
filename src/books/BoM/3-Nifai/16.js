@@ -1,5 +1,5 @@
 export const CxapitroDekSes = {
-  key: '3 Nefai 16',
+  key: '3 Nifai 16',
   chapterNum: 16,
   verses: [
     'KAJ vere, vere, mi diras al vi, ke mi havas aliajn ŝafojn, kiuj ne estas de ĉi tiu lando, nek el la lando Jerusalema, nek en iu parto de tiu lando ĉirkaŭe, kien mi iris por pastradi.',

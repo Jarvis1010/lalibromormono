@@ -1,5 +1,5 @@
 export const CxapitroUnu = {
-  key: '3 Nefai 1',
+  key: '3 Nifai 1',
   chapterNum: 1,
   title: 'LA TRIA LIBRO DE NIFAI',
   subtitle: 'LA FILO DE NIFAI, KIU ESTIS LA FILO DE HELAMAN',

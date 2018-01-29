@@ -1,5 +1,5 @@
 export const CxapitroDuDekSes = {
-  key: '3 Nefai 26',
+  key: '3 Nifai 26',
   chapterNum: 26,
   verses: [
     'KAJ tiam okazis, post kiam Jesuo diris ĉi tion, ke li klarigis ĝin al la popolamaso; kaj li klarigis al ili ĉion, kaj grandan kaj malgrandan.',

@@ -1,5 +1,5 @@
 export const CxapitroDuDekUnu = {
-  key: '3 Nefai 21',
+  key: '3 Nifai 21',
   chapterNum: 21,
   verses: [
     'KAJ vere mi diras al vi, mi donos al vi signon, por ke vi sciu la tempon, kiam ĉi tio estos tuj okazonta kiam mi kolektos, post ilia longa disiĝo, mian popolon, ho domo de Izrael, kaj restarigos inter ili mian Cionon;',

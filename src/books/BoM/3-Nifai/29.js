@@ -1,5 +1,5 @@
 export const CxapitroDuDekNau = {
-  key: '3 Nefai 29',
+  key: '3 Nifai 29',
   chapterNum: 29,
   verses: [
     'KAJ nun jen mi diras al vi, ke kiam la Sinjoro en sia saĝo juĝos tion konvena, ke ĉi tiuj diroj venu al la Nacianoj konforme al sia vorto, tiam vi scios, ke jam ekplenumiĝas la interligo, kiun la Patro faris kun la Izraelidoj pri ilia reveno al la teroj de sia heredaĵo. ',
