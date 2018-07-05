@@ -98,11 +98,11 @@ android {
     
 
     defaultConfig {
-        applicationId "com.lalibromormono"
+        applicationId "com.sanktajlibroj"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 4
-        versionName "2.2"
+        versionCode 1
+        versionName "1"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
