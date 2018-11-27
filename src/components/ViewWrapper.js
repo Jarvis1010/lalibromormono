@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { StyleSheet, View, StatusBar, Platform } from 'react-native';
+import React, { Component } from "react";
+import { StyleSheet, View, StatusBar, Platform } from "react-native";
 
 export default class ViewWrapper extends Component {
   render() {
     const { style = {}, children, StatusBarProps = {} } = this.props;
     const {
-      backgroundColor = 'white',
+      backgroundColor = "white",
       height = STATUSBAR_HEIGHT,
     } = StatusBarProps;
     return (
@@ -19,13 +19,14 @@ export default class ViewWrapper extends Component {
   }
 }
 
-const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0;
+const STATUSBAR_HEIGHT = Platform.OS === "ios" ? 20 : 0;
+
 const styles = StyleSheet.create({
   ViewWrapper: {
     flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
-    alignItems: 'stretch',
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "stretch",
   },
   StatusBar: {
     height: STATUSBAR_HEIGHT,

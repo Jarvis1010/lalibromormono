@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
-import BreadCrumbsMenu from '../components/BreadCrumbsMenu';
-import ViewWrapper from '../components/ViewWrapper';
-import { ListItem } from 'react-native-elements';
-import { fontFamily, darkFontColor } from '../styleConstants';
-import { books } from '../books/books';
+import React, { Component } from "react";
+import { StyleSheet, Text, View, FlatList } from "react-native";
+import BreadCrumbsMenu from "../components/BreadCrumbsMenu";
+import ViewWrapper from "../components/ViewWrapper";
+import { ListItem } from "react-native-elements";
+import { fontFamily, darkFontColor } from "../styleConstants";
+import { books } from "../books/books";
 
 export default class BookListView extends Component {
   render() {
@@ -26,16 +26,17 @@ export default class BookListView extends Component {
         style={styles.wrapper}
         StatusBarProps={{
           height: 0,
-          barStyle: 'light-content',
+          barStyle: "light-content",
         }}
       >
         <BreadCrumbsMenu breadCrumbs={breadCrumbs}>
-          {books[i[0]].sections.length == 0 &&
+          {books[i[0]].sections.length == 0 && (
             <View>
-              <Text style={{ textAlign: 'center' }}>
+              <Text style={{ textAlign: "center" }}>
                 La traduko ne nuntempe estas havebla en ĉi tiu apo
               </Text>
-            </View>}
+            </View>
+          )}
           <FlatList
             style={styles.layout}
             data={books[i[0]].sections}
@@ -43,10 +44,11 @@ export default class BookListView extends Component {
               <ListItem
                 titleStyle={{ color: darkFontColor, fontFamily }}
                 onPress={() =>
-                  navigate('chapters', {
+                  navigate("chapters", {
                     breadCrumbs: breadCrumbs.concat([{ title: item.key }]),
                     indexs: i.concat(index),
-                  })}
+                  })
+                }
                 key={item.key}
                 title={item.key}
               />
@@ -60,7 +62,7 @@ export default class BookListView extends Component {
 
 const styles = StyleSheet.create({
   wrapper: {
-    backgroundColor: 'white',
+    backgroundColor: "white",
   },
   layout: {
     paddingBottom: 140,

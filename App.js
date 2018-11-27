@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { AppRegistry } from 'react-native';
-import { StackNavigator } from 'react-navigation';
-import IndexView from './src/views/IndexView';
-import BookListView from './src/views/BookListView';
-import ChapterListView from './src/views/ChapterListView';
-import VerseListView from './src/views/VerseListView';
+import React from "react";
+import { View, Text } from "react-native";
+import { createStackNavigator, createAppContainer } from "react-navigation";
+import IndexView from "./src/views/IndexView";
+import BookListView from "./src/views/BookListView";
+import ChapterListView from "./src/views/ChapterListView";
+import VerseListView from "./src/views/VerseListView";
 
-const LaLibroMormono = StackNavigator(
+const LaLibroMormono = createStackNavigator(
   {
     home: { screen: IndexView },
     books: { screen: BookListView },
@@ -14,12 +14,10 @@ const LaLibroMormono = StackNavigator(
     verses: { screen: VerseListView },
   },
   {
-    navigationOptions: {
-      header: null,
-    },
-    initialRouteName: 'home',
-    mode: 'modal',
+    headerMode: "none",
+    initialRouteName: "home",
+    mode: "modal",
   }
 );
 
-export default LaLibroMormono;
+export default createAppContainer(LaLibroMormono);
