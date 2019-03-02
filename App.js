@@ -1,5 +1,11 @@
-import React from "react";
-import { View, Text } from "react-native";
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow
+ * @lint-ignore-every XPLATJSCOPYRIGHT1
+ */
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import IndexView from "./src/views/IndexView";
 import BookListView from "./src/views/BookListView";
