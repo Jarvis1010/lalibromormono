@@ -12,7 +12,7 @@ export const Moseo = {
   chapters: [
     CxapitroUnu,
     CxapitroDu,
-    // CxapitroTri,
+    CxapitroTri,
     // CxapitroKvar,
     // CxapitroKvin,
     // CxapitroSes,
