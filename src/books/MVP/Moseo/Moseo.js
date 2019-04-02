@@ -17,6 +17,6 @@ export const Moseo = {
     CxapitroKvin,
     CxapitroSes,
     CxapitroSep,
-    // CxapitroOk,
+    CxapitroOk,
   ],
 };
